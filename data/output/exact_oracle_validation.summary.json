@@ -1,0 +1,53 @@
+{
+  "all_instances_match": true,
+  "by_m": {
+    "2": {
+      "feasible": 6613,
+      "infeasible": 846,
+      "matched": 7459,
+      "n": 7459
+    },
+    "3": {
+      "feasible": 6235,
+      "infeasible": 1212,
+      "matched": 7447,
+      "n": 7447
+    },
+    "4": {
+      "feasible": 6006,
+      "infeasible": 1537,
+      "matched": 7543,
+      "n": 7543
+    },
+    "5": {
+      "feasible": 5854,
+      "infeasible": 1697,
+      "matched": 7551,
+      "n": 7551
+    }
+  },
+  "extrema_match_count": 30000,
+  "extrema_mismatch_count": 0,
+  "extrema_mismatch_examples": [],
+  "feasible_instances": 24708,
+  "infeasible_instances": 5292,
+  "m_range": [
+    2,
+    5
+  ],
+  "match_count": 30000,
+  "mismatch_count": 0,
+  "mismatch_examples": [],
+  "n_instances": 30000,
+  "oracle_description": "explicit relaxed-identity enumeration with independently reimplemented local duration geometry, conditional intersections, theta grid, and binary contribution enumeration",
+  "production_imports": [
+    "robust_coupled_quorum_count_set",
+    "robust_coupled_quorum_classification"
+  ],
+  "q_range": [
+    0,
+    5
+  ],
+  "q_sampling": "uniform on 0..M per instance",
+  "seed": 20260915
+}

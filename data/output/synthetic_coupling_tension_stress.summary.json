@@ -1,0 +1,64 @@
+{
+  "bracket_width": 0.1,
+  "clean_false_positive_pct": 0.0,
+  "generator": {
+    "clean": "all eight sources share theta; source delays lie in stated envelopes",
+    "contamination": "one uniformly chosen source uses theta + shift*w before its valid delay",
+    "interpretation": "detection evaluates incompatibility of the stated shared-event model; not Internet prevalence"
+  },
+  "n_events_per_shift": 20000,
+  "rows": [
+    {
+      "bracket_width": 0.1,
+      "infeasible_detected_pct": 0.0,
+      "max_tension": 0.0,
+      "max_uniform_slack": 0.0,
+      "mean_positive_tension": 0.0,
+      "n_events": 20000,
+      "shift_in_bracket_widths": 0.0,
+      "sources_per_event": 8
+    },
+    {
+      "bracket_width": 0.1,
+      "infeasible_detected_pct": 2.585,
+      "max_tension": 0.01929284737103487,
+      "max_uniform_slack": 0.009646423685517436,
+      "mean_positive_tension": 0.005537382616087613,
+      "n_events": 20000,
+      "shift_in_bracket_widths": 0.25,
+      "sources_per_event": 8
+    },
+    {
+      "bracket_width": 0.1,
+      "infeasible_detected_pct": 20.05,
+      "max_tension": 0.047829185262033336,
+      "max_uniform_slack": 0.023914592631016668,
+      "mean_positive_tension": 0.013585143057559904,
+      "n_events": 20000,
+      "shift_in_bracket_widths": 0.5,
+      "sources_per_event": 8
+    },
+    {
+      "bracket_width": 0.1,
+      "infeasible_detected_pct": 68.755,
+      "max_tension": 0.09472439649560915,
+      "max_uniform_slack": 0.04736219824780458,
+      "mean_positive_tension": 0.03576079261166238,
+      "n_events": 20000,
+      "shift_in_bracket_widths": 1.0,
+      "sources_per_event": 8
+    },
+    {
+      "bracket_width": 0.1,
+      "infeasible_detected_pct": 100.0,
+      "max_tension": 0.19642596465075746,
+      "max_uniform_slack": 0.09821298232537873,
+      "mean_positive_tension": 0.11878382369192422,
+      "n_events": 20000,
+      "shift_in_bracket_widths": 2.0,
+      "sources_per_event": 8
+    }
+  ],
+  "seed": 20260914,
+  "sources_per_event": 8
+}

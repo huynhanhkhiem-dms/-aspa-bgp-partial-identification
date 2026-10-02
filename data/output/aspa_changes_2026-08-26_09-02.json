@@ -1,0 +1,6369 @@
+{
+  "semantics": {
+    "state": "effective U-SPAS union per draft-ietf-sidrops-aspa-profile-29 section 5.2",
+    "as0": "remove AS0 when any nonzero provider exists in the effective union",
+    "created_deleted": "retained in audit; excluded from provider-modification denominator",
+    "input_level": "archived RP/TAL-level provider extraction; not raw ASN.1 eContent"
+  },
+  "dates": [
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02"
+  ],
+  "transitions": [
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customers_before": 2782,
+      "customers_after": 2791,
+      "changed_customers": 23,
+      "modified_customers": 10,
+      "modified_provider_additions": 11,
+      "modified_provider_removals": 1
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customers_before": 2791,
+      "customers_after": 2801,
+      "changed_customers": 24,
+      "modified_customers": 6,
+      "modified_provider_additions": 5,
+      "modified_provider_removals": 10
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customers_before": 2801,
+      "customers_after": 2805,
+      "changed_customers": 31,
+      "modified_customers": 15,
+      "modified_provider_additions": 13,
+      "modified_provider_removals": 5
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customers_before": 2805,
+      "customers_after": 2810,
+      "changed_customers": 14,
+      "modified_customers": 7,
+      "modified_provider_additions": 6,
+      "modified_provider_removals": 4
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customers_before": 2810,
+      "customers_after": 2815,
+      "changed_customers": 17,
+      "modified_customers": 10,
+      "modified_provider_additions": 12,
+      "modified_provider_removals": 2
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customers_before": 2815,
+      "customers_after": 2822,
+      "changed_customers": 29,
+      "modified_customers": 8,
+      "modified_provider_additions": 6,
+      "modified_provider_removals": 3
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customers_before": 2822,
+      "customers_after": 2843,
+      "changed_customers": 39,
+      "modified_customers": 10,
+      "modified_provider_additions": 11,
+      "modified_provider_removals": 3
+    }
+  ],
+  "events": [
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 14789,
+      "providers_before": [
+        557,
+        1680,
+        2107,
+        3462,
+        3737,
+        3741,
+        4007,
+        4651,
+        4775,
+        4780,
+        4787,
+        4800,
+        6181,
+        6208,
+        7459,
+        7642,
+        8047,
+        8529,
+        8697,
+        8866,
+        8932,
+        8966,
+        9038,
+        9198,
+        9329,
+        9416,
+        9534,
+        9873,
+        9930,
+        10075,
+        10089,
+        10094,
+        10118,
+        10396,
+        11232,
+        11260,
+        12297,
+        12400,
+        12735,
+        12975,
+        13194,
+        13335,
+        13576,
+        14259,
+        14522,
+        14840,
+        14988,
+        15399,
+        15739,
+        15802,
+        16010,
+        16637,
+        16735,
+        16814,
+        17072,
+        17451,
+        17494,
+        17557,
+        17639,
+        17754,
+        17882,
+        18001,
+        18004,
+        18200,
+        18229,
+        18678,
+        20764,
+        21277,
+        21574,
+        23201,
+        23243,
+        23674,
+        23752,
+        23889,
+        23951,
+        24088,
+        24432,
+        24499,
+        24550,
+        27665,
+        27693,
+        27775,
+        27884,
+        27895,
+        27924,
+        28006,
+        28118,
+        28126,
+        28198,
+        28201,
+        28283,
+        28343,
+        29049,
+        29357,
+        29555,
+        30689,
+        30844,
+        30986,
+        30990,
+        30992,
+        30999,
+        31452,
+        33765,
+        33779,
+        33874,
+        35432,
+        35805,
+        35819,
+        35900,
+        36947,
+        36962,
+        36974,
+        36992,
+        37002,
+        37035,
+        37054,
+        37105,
+        37133,
+        37468,
+        37645,
+        37662,
+        37678,
+        37705,
+        37904,
+        38040,
+        38082,
+        38442,
+        38565,
+        40786,
+        42020,
+        44217,
+        44558,
+        45177,
+        45356,
+        45430,
+        45498,
+        45582,
+        45754,
+        45916,
+        46650,
+        47394,
+        47589,
+        48728,
+        48832,
+        49800,
+        51346,
+        52253,
+        52263,
+        52374,
+        52468,
+        55805,
+        55836,
+        55915,
+        55943,
+        55944,
+        57293,
+        57324,
+        57344,
+        58470,
+        58495,
+        58682,
+        58715,
+        58717,
+        59318,
+        59588,
+        61399,
+        61580,
+        64116,
+        64126,
+        131267,
+        131330,
+        132165,
+        132602,
+        132876,
+        137187,
+        137491,
+        138640,
+        138754,
+        138886,
+        139009,
+        139831,
+        139901,
+        139922,
+        141013,
+        141177,
+        141731,
+        150748,
+        196925,
+        199995,
+        201532,
+        203214,
+        203217,
+        204170,
+        205140,
+        206206,
+        208407,
+        210021,
+        212522,
+        262186,
+        262210,
+        262589,
+        262907,
+        263073,
+        263327,
+        263779,
+        266445,
+        267613,
+        268696,
+        268976,
+        271253,
+        271885,
+        272037,
+        272806,
+        327875,
+        327899,
+        328578,
+        328949
+      ],
+      "providers_after": [
+        557,
+        1680,
+        2107,
+        3462,
+        3737,
+        3741,
+        4007,
+        4651,
+        4775,
+        4780,
+        4787,
+        4800,
+        6181,
+        6208,
+        7459,
+        7642,
+        8047,
+        8529,
+        8697,
+        8866,
+        8932,
+        8966,
+        9038,
+        9198,
+        9329,
+        9416,
+        9534,
+        9873,
+        9930,
+        10030,
+        10075,
+        10089,
+        10094,
+        10118,
+        10396,
+        11232,
+        11260,
+        12297,
+        12400,
+        12735,
+        12975,
+        13194,
+        13335,
+        13576,
+        14259,
+        14522,
+        14840,
+        14988,
+        15399,
+        15739,
+        15802,
+        16010,
+        16637,
+        16735,
+        16814,
+        17072,
+        17451,
+        17494,
+        17557,
+        17639,
+        17754,
+        17882,
+        18001,
+        18004,
+        18200,
+        18229,
+        18678,
+        20764,
+        21277,
+        21574,
+        23201,
+        23243,
+        23674,
+        23752,
+        23889,
+        23951,
+        24088,
+        24432,
+        24499,
+        24550,
+        27665,
+        27693,
+        27775,
+        27884,
+        27895,
+        27924,
+        28006,
+        28118,
+        28126,
+        28198,
+        28201,
+        28283,
+        28343,
+        29049,
+        29357,
+        29555,
+        30689,
+        30844,
+        30986,
+        30990,
+        30992,
+        30999,
+        31452,
+        33765,
+        33779,
+        33874,
+        35432,
+        35805,
+        35819,
+        35900,
+        36947,
+        36962,
+        36974,
+        36992,
+        37002,
+        37035,
+        37054,
+        37105,
+        37133,
+        37468,
+        37645,
+        37662,
+        37678,
+        37705,
+        37904,
+        38040,
+        38082,
+        38442,
+        38565,
+        40786,
+        42020,
+        44217,
+        44558,
+        45177,
+        45356,
+        45430,
+        45498,
+        45582,
+        45754,
+        45916,
+        46650,
+        47394,
+        47589,
+        48728,
+        48832,
+        49800,
+        51346,
+        52253,
+        52263,
+        52341,
+        52374,
+        52468,
+        55805,
+        55836,
+        55915,
+        55943,
+        55944,
+        57293,
+        57324,
+        57344,
+        58470,
+        58495,
+        58682,
+        58715,
+        58717,
+        59318,
+        59588,
+        61399,
+        61580,
+        64116,
+        64126,
+        131267,
+        131330,
+        132165,
+        132602,
+        132876,
+        137187,
+        137491,
+        138640,
+        138754,
+        138886,
+        139009,
+        139831,
+        139901,
+        139922,
+        141013,
+        141177,
+        141731,
+        150748,
+        196925,
+        199995,
+        201532,
+        203214,
+        203217,
+        204170,
+        205140,
+        206206,
+        208407,
+        210021,
+        212522,
+        262186,
+        262210,
+        262589,
+        262907,
+        263073,
+        263327,
+        263779,
+        266445,
+        267613,
+        268696,
+        268976,
+        271253,
+        271885,
+        272037,
+        272806,
+        327875,
+        327899,
+        328578,
+        328949
+      ],
+      "providers_added": [
+        10030,
+        52341
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 16652,
+      "providers_before": [
+        174,
+        18530
+      ],
+      "providers_after": [
+        174,
+        6939,
+        18530
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 24144,
+      "providers_before": [],
+      "providers_after": [
+        955
+      ],
+      "providers_added": [
+        955
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 48378,
+      "providers_before": [],
+      "providers_after": [
+        12963
+      ],
+      "providers_added": [
+        12963
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 63919,
+      "providers_before": [],
+      "providers_after": [
+        1221,
+        2764
+      ],
+      "providers_added": [
+        1221,
+        2764
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 136605,
+      "providers_before": [],
+      "providers_after": [
+        4764
+      ],
+      "providers_added": [
+        4764
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 199109,
+      "providers_before": [],
+      "providers_after": [
+        20712,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_added": [
+        20712,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 199183,
+      "providers_before": [
+        41051,
+        208753,
+        209533,
+        211509,
+        212895,
+        214757,
+        214809
+      ],
+      "providers_after": [
+        41051,
+        201398,
+        208753,
+        209533,
+        211509,
+        212895,
+        214757,
+        214809
+      ],
+      "providers_added": [
+        201398
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 202118,
+      "providers_before": [
+        47311,
+        199524
+      ],
+      "providers_after": [
+        8849,
+        199524
+      ],
+      "providers_added": [
+        8849
+      ],
+      "providers_removed": [
+        47311
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 202831,
+      "providers_before": [
+        6939,
+        30823,
+        31500,
+        35598,
+        49612,
+        62255
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        6939,
+        30823,
+        31500,
+        35598,
+        49612,
+        62255
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 208711,
+      "providers_before": [],
+      "providers_after": [
+        23470,
+        35200,
+        42831
+      ],
+      "providers_added": [
+        23470,
+        35200,
+        42831
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 209203,
+      "providers_before": [],
+      "providers_after": [
+        48408
+      ],
+      "providers_added": [
+        48408
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 209306,
+      "providers_before": [
+        4842,
+        38008,
+        59105
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        4842,
+        38008,
+        59105
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 213512,
+      "providers_before": [
+        200462,
+        213527,
+        215120
+      ],
+      "providers_after": [
+        174,
+        200462,
+        213527,
+        215120
+      ],
+      "providers_added": [
+        174
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 215228,
+      "providers_before": [
+        43298,
+        59796,
+        133275,
+        136946,
+        149240,
+        212895,
+        219331
+      ],
+      "providers_after": [
+        12956,
+        43298,
+        59796,
+        133275,
+        136946,
+        149240,
+        212895,
+        219331
+      ],
+      "providers_added": [
+        12956
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 215599,
+      "providers_before": [
+        9002,
+        50124,
+        199524
+      ],
+      "providers_after": [
+        9002,
+        50124,
+        199524,
+        213382
+      ],
+      "providers_added": [
+        213382
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 218876,
+      "providers_before": [],
+      "providers_after": [
+        49581,
+        52025
+      ],
+      "providers_added": [
+        49581,
+        52025
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 262765,
+      "providers_before": [],
+      "providers_after": [
+        2914,
+        16735
+      ],
+      "providers_added": [
+        2914,
+        16735
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 270631,
+      "providers_before": [],
+      "providers_after": [
+        3356,
+        13335,
+        15830,
+        22381,
+        52863,
+        52925,
+        61568
+      ],
+      "providers_added": [
+        3356,
+        13335,
+        15830,
+        22381,
+        52863,
+        52925,
+        61568
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 401311,
+      "providers_before": [
+        34927,
+        47272
+      ],
+      "providers_after": [
+        34927,
+        35661,
+        47272
+      ],
+      "providers_added": [
+        35661
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 401315,
+      "providers_before": [
+        20119,
+        53339,
+        53356,
+        209533,
+        212895,
+        393577
+      ],
+      "providers_after": [
+        6939,
+        20119,
+        53339,
+        53356,
+        209533,
+        212895,
+        393577
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 402786,
+      "providers_before": [],
+      "providers_after": [
+        54004
+      ],
+      "providers_added": [
+        54004
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-26",
+      "date_after": "2026-08-27",
+      "customer": 402940,
+      "providers_before": [
+        46450
+      ],
+      "providers_after": [
+        13335,
+        46450
+      ],
+      "providers_added": [
+        13335
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 14789,
+      "providers_before": [
+        557,
+        1680,
+        2107,
+        3462,
+        3737,
+        3741,
+        4007,
+        4651,
+        4775,
+        4780,
+        4787,
+        4800,
+        6181,
+        6208,
+        7459,
+        7642,
+        8047,
+        8529,
+        8697,
+        8866,
+        8932,
+        8966,
+        9038,
+        9198,
+        9329,
+        9416,
+        9534,
+        9873,
+        9930,
+        10030,
+        10075,
+        10089,
+        10094,
+        10118,
+        10396,
+        11232,
+        11260,
+        12297,
+        12400,
+        12735,
+        12975,
+        13194,
+        13335,
+        13576,
+        14259,
+        14522,
+        14840,
+        14988,
+        15399,
+        15739,
+        15802,
+        16010,
+        16637,
+        16735,
+        16814,
+        17072,
+        17451,
+        17494,
+        17557,
+        17639,
+        17754,
+        17882,
+        18001,
+        18004,
+        18200,
+        18229,
+        18678,
+        20764,
+        21277,
+        21574,
+        23201,
+        23243,
+        23674,
+        23752,
+        23889,
+        23951,
+        24088,
+        24432,
+        24499,
+        24550,
+        27665,
+        27693,
+        27775,
+        27884,
+        27895,
+        27924,
+        28006,
+        28118,
+        28126,
+        28198,
+        28201,
+        28283,
+        28343,
+        29049,
+        29357,
+        29555,
+        30689,
+        30844,
+        30986,
+        30990,
+        30992,
+        30999,
+        31452,
+        33765,
+        33779,
+        33874,
+        35432,
+        35805,
+        35819,
+        35900,
+        36947,
+        36962,
+        36974,
+        36992,
+        37002,
+        37035,
+        37054,
+        37105,
+        37133,
+        37468,
+        37645,
+        37662,
+        37678,
+        37705,
+        37904,
+        38040,
+        38082,
+        38442,
+        38565,
+        40786,
+        42020,
+        44217,
+        44558,
+        45177,
+        45356,
+        45430,
+        45498,
+        45582,
+        45754,
+        45916,
+        46650,
+        47394,
+        47589,
+        48728,
+        48832,
+        49800,
+        51346,
+        52253,
+        52263,
+        52341,
+        52374,
+        52468,
+        55805,
+        55836,
+        55915,
+        55943,
+        55944,
+        57293,
+        57324,
+        57344,
+        58470,
+        58495,
+        58682,
+        58715,
+        58717,
+        59318,
+        59588,
+        61399,
+        61580,
+        64116,
+        64126,
+        131267,
+        131330,
+        132165,
+        132602,
+        132876,
+        137187,
+        137491,
+        138640,
+        138754,
+        138886,
+        139009,
+        139831,
+        139901,
+        139922,
+        141013,
+        141177,
+        141731,
+        150748,
+        196925,
+        199995,
+        201532,
+        203214,
+        203217,
+        204170,
+        205140,
+        206206,
+        208407,
+        210021,
+        212522,
+        262186,
+        262210,
+        262589,
+        262907,
+        263073,
+        263327,
+        263779,
+        266445,
+        267613,
+        268696,
+        268976,
+        271253,
+        271885,
+        272037,
+        272806,
+        327875,
+        327899,
+        328578,
+        328949
+      ],
+      "providers_after": [
+        557,
+        1680,
+        2107,
+        3462,
+        3737,
+        3741,
+        4007,
+        4651,
+        4775,
+        4780,
+        4787,
+        4800,
+        6181,
+        6208,
+        7459,
+        7642,
+        8047,
+        8529,
+        8697,
+        8866,
+        8932,
+        8966,
+        9038,
+        9198,
+        9329,
+        9416,
+        9534,
+        9873,
+        9930,
+        10030,
+        10075,
+        10089,
+        10094,
+        10118,
+        10396,
+        11232,
+        11260,
+        12297,
+        12400,
+        12735,
+        12975,
+        13194,
+        13335,
+        13576,
+        14259,
+        14522,
+        14840,
+        14988,
+        15399,
+        15739,
+        15802,
+        16010,
+        16637,
+        16735,
+        16814,
+        17072,
+        17451,
+        17494,
+        17557,
+        17639,
+        17754,
+        17882,
+        18001,
+        18004,
+        18200,
+        18229,
+        18678,
+        20764,
+        21277,
+        21574,
+        23201,
+        23243,
+        23674,
+        23752,
+        23889,
+        23951,
+        24088,
+        24432,
+        24499,
+        24550,
+        27665,
+        27693,
+        27775,
+        27814,
+        27884,
+        27895,
+        27924,
+        28006,
+        28118,
+        28126,
+        28198,
+        28201,
+        28283,
+        28343,
+        29049,
+        29357,
+        29555,
+        30689,
+        30844,
+        30986,
+        30990,
+        30992,
+        30999,
+        31452,
+        33765,
+        33779,
+        33874,
+        35432,
+        35805,
+        35819,
+        35900,
+        36947,
+        36962,
+        36974,
+        36992,
+        37002,
+        37035,
+        37054,
+        37105,
+        37133,
+        37468,
+        37645,
+        37662,
+        37678,
+        37705,
+        37904,
+        38040,
+        38082,
+        38442,
+        38565,
+        40786,
+        42020,
+        44217,
+        44558,
+        45177,
+        45356,
+        45430,
+        45498,
+        45582,
+        45754,
+        45916,
+        46650,
+        47394,
+        47589,
+        48728,
+        48832,
+        49800,
+        51346,
+        52253,
+        52263,
+        52341,
+        52374,
+        52468,
+        55805,
+        55836,
+        55915,
+        55943,
+        55944,
+        57293,
+        57324,
+        57344,
+        58470,
+        58495,
+        58682,
+        58715,
+        58717,
+        59318,
+        59588,
+        61399,
+        61580,
+        64116,
+        64126,
+        131267,
+        131330,
+        132165,
+        132602,
+        132876,
+        137187,
+        137491,
+        138640,
+        138754,
+        138886,
+        139009,
+        139831,
+        139901,
+        139922,
+        141013,
+        141177,
+        141731,
+        150748,
+        196925,
+        199995,
+        201532,
+        203214,
+        203217,
+        204170,
+        205140,
+        206206,
+        208407,
+        210021,
+        212522,
+        262186,
+        262210,
+        262589,
+        262907,
+        263073,
+        263327,
+        263779,
+        266445,
+        267613,
+        268696,
+        268976,
+        271253,
+        271885,
+        272037,
+        272806,
+        327875,
+        327899,
+        328578,
+        328949
+      ],
+      "providers_added": [
+        27814
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 23028,
+      "providers_before": [],
+      "providers_after": [
+        6939
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 23376,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        6461,
+        6939
+      ],
+      "providers_added": [
+        174,
+        6461,
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 33733,
+      "providers_before": [],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": true,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 35206,
+      "providers_before": [
+        13030,
+        58299
+      ],
+      "providers_after": [
+        6939,
+        13030,
+        58299
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 41731,
+      "providers_before": [
+        196610
+      ],
+      "providers_after": [
+        6939,
+        196610
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 43171,
+      "providers_before": [
+        8075,
+        9141,
+        15169,
+        21132,
+        21395,
+        24115,
+        29535,
+        32934,
+        48850,
+        50841,
+        62047,
+        62081,
+        63293,
+        201054
+      ],
+      "providers_after": [
+        9141,
+        21395,
+        29535,
+        62081,
+        201054
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        8075,
+        15169,
+        21132,
+        24115,
+        32934,
+        48850,
+        50841,
+        62047,
+        63293
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 45163,
+      "providers_before": [],
+      "providers_after": [
+        1221,
+        7575
+      ],
+      "providers_added": [
+        1221,
+        7575
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 52112,
+      "providers_before": [],
+      "providers_after": [
+        6939,
+        20473,
+        24961,
+        34927,
+        52025,
+        212001,
+        212895
+      ],
+      "providers_added": [
+        6939,
+        20473,
+        24961,
+        34927,
+        52025,
+        212001,
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 53857,
+      "providers_before": [],
+      "providers_after": [
+        21523,
+        23376
+      ],
+      "providers_added": [
+        21523,
+        23376
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 56747,
+      "providers_before": [],
+      "providers_after": [
+        15935
+      ],
+      "providers_added": [
+        15935
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 136469,
+      "providers_before": [],
+      "providers_after": [
+        6939
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 197959,
+      "providers_before": [],
+      "providers_after": [
+        6939,
+        35661,
+        52025
+      ],
+      "providers_added": [
+        6939,
+        35661,
+        52025
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 199109,
+      "providers_before": [
+        20712,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_after": [
+        20712,
+        41051,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_added": [
+        41051
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 200454,
+      "providers_before": [
+        174,
+        6939,
+        12186,
+        19577,
+        50666
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        174,
+        6939,
+        12186,
+        19577,
+        50666
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 207754,
+      "providers_before": [],
+      "providers_after": [
+        20473,
+        20712
+      ],
+      "providers_added": [
+        20473,
+        20712
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 209306,
+      "providers_before": [],
+      "providers_after": [
+        4842,
+        38008,
+        59105
+      ],
+      "providers_added": [
+        4842,
+        38008,
+        59105
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 215110,
+      "providers_before": [
+        47272
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        47272
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 215599,
+      "providers_before": [
+        9002,
+        50124,
+        199524,
+        213382
+      ],
+      "providers_after": [
+        9002,
+        50124,
+        199524,
+        215114
+      ],
+      "providers_added": [
+        215114
+      ],
+      "providers_removed": [
+        213382
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 218857,
+      "providers_before": [],
+      "providers_after": [
+        60132,
+        197133
+      ],
+      "providers_added": [
+        60132,
+        197133
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 219418,
+      "providers_before": [
+        34927,
+        47272,
+        197324,
+        204464,
+        212635,
+        213449,
+        215147,
+        215685
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        34927,
+        47272,
+        197324,
+        204464,
+        212635,
+        213449,
+        215147,
+        215685
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 262515,
+      "providers_before": [],
+      "providers_after": [
+        262765
+      ],
+      "providers_added": [
+        262765
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 262757,
+      "providers_before": [],
+      "providers_after": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_added": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-27",
+      "date_after": "2026-08-28",
+      "customer": 264594,
+      "providers_before": [],
+      "providers_after": [
+        4230,
+        14840,
+        16735,
+        28343
+      ],
+      "providers_added": [
+        4230,
+        14840,
+        16735,
+        28343
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 553,
+      "providers_before": [
+        174,
+        559,
+        680,
+        1299,
+        2914,
+        3320
+      ],
+      "providers_after": [
+        559,
+        680,
+        1299,
+        2914,
+        3320
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        174
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 17267,
+      "providers_before": [
+        174,
+        6939
+      ],
+      "providers_after": [
+        174,
+        6939,
+        62499
+      ],
+      "providers_added": [
+        62499
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 36231,
+      "providers_before": [
+        1828,
+        6939,
+        8943,
+        61049,
+        62917,
+        396998
+      ],
+      "providers_after": [
+        1828,
+        6461,
+        6939,
+        8943,
+        61049,
+        62917,
+        396998
+      ],
+      "providers_added": [
+        6461
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 41483,
+      "providers_before": [
+        12929,
+        25400
+      ],
+      "providers_after": [
+        25400
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        12929
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 42447,
+      "providers_before": [],
+      "providers_after": [
+        35104,
+        59796,
+        198803,
+        213243
+      ],
+      "providers_added": [
+        35104,
+        59796,
+        198803,
+        213243
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 58899,
+      "providers_before": [
+        9885
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        9885
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 59181,
+      "providers_before": [
+        9885,
+        55824
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        9885,
+        55824
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 59182,
+      "providers_before": [
+        9885,
+        55824
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        9885,
+        55824
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 59970,
+      "providers_before": [
+        6830,
+        39392,
+        47232
+      ],
+      "providers_after": [
+        6830,
+        6939,
+        39392,
+        47232
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 148100,
+      "providers_before": [
+        9885,
+        55824
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        9885,
+        55824
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 197324,
+      "providers_before": [
+        11967
+      ],
+      "providers_after": [
+        11967,
+        212895
+      ],
+      "providers_added": [
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 197946,
+      "providers_before": [
+        24381,
+        43754,
+        48147,
+        48434,
+        60976,
+        62563,
+        204203,
+        207459,
+        212248
+      ],
+      "providers_after": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        60976,
+        62563,
+        204203,
+        207459,
+        212248
+      ],
+      "providers_added": [
+        44620,
+        50049
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 199109,
+      "providers_before": [
+        20712,
+        41051,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        20712,
+        41051,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 211848,
+      "providers_before": [],
+      "providers_after": [
+        719,
+        1759
+      ],
+      "providers_added": [
+        719,
+        1759
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 212332,
+      "providers_before": [
+        6939,
+        34872,
+        209533,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        11967,
+        34872,
+        209533,
+        212895
+      ],
+      "providers_added": [
+        11967
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 214017,
+      "providers_before": [
+        5405
+      ],
+      "providers_after": [
+        5405,
+        20473
+      ],
+      "providers_added": [
+        20473
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 214079,
+      "providers_before": [
+        213449,
+        215828
+      ],
+      "providers_after": [
+        211138,
+        215828
+      ],
+      "providers_added": [
+        211138
+      ],
+      "providers_removed": [
+        213449
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 215110,
+      "providers_before": [],
+      "providers_after": [
+        47272
+      ],
+      "providers_added": [
+        47272
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 215666,
+      "providers_before": [
+        207252,
+        213413
+      ],
+      "providers_after": [
+        207252
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        213413
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 218836,
+      "providers_before": [],
+      "providers_after": [
+        8283
+      ],
+      "providers_added": [
+        8283
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 218842,
+      "providers_before": [],
+      "providers_after": [
+        212895
+      ],
+      "providers_added": [
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 218888,
+      "providers_before": [],
+      "providers_after": [
+        211615
+      ],
+      "providers_added": [
+        211615
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 219094,
+      "providers_before": [
+        20473,
+        212895
+      ],
+      "providers_after": [
+        20473,
+        52025,
+        212895
+      ],
+      "providers_added": [
+        52025
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 219418,
+      "providers_before": [],
+      "providers_after": [
+        34927,
+        47272,
+        197324,
+        204464,
+        212635,
+        213449,
+        215147,
+        215685
+      ],
+      "providers_added": [
+        34927,
+        47272,
+        197324,
+        204464,
+        212635,
+        213449,
+        215147,
+        215685
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 219465,
+      "providers_before": [
+        4492,
+        29529,
+        215405
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        4492,
+        29529,
+        215405
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 262757,
+      "providers_before": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        4230,
+        16735,
+        61642
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 263568,
+      "providers_before": [],
+      "providers_after": [
+        262765
+      ],
+      "providers_added": [
+        262765
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 396420,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        6461,
+        6939
+      ],
+      "providers_added": [
+        174,
+        6461,
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 402546,
+      "providers_before": [],
+      "providers_after": [
+        397423
+      ],
+      "providers_added": [
+        397423
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 402663,
+      "providers_before": [
+        401538
+      ],
+      "providers_after": [
+        33755,
+        401538
+      ],
+      "providers_added": [
+        33755
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-28",
+      "date_after": "2026-08-29",
+      "customer": 402901,
+      "providers_before": [
+        212895
+      ],
+      "providers_after": [
+        16276
+      ],
+      "providers_added": [
+        16276
+      ],
+      "providers_removed": [
+        212895
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 58899,
+      "providers_before": [],
+      "providers_after": [
+        9885
+      ],
+      "providers_added": [
+        9885
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 59181,
+      "providers_before": [],
+      "providers_after": [
+        9885,
+        55824
+      ],
+      "providers_added": [
+        9885,
+        55824
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 59182,
+      "providers_before": [],
+      "providers_after": [
+        9885,
+        55824
+      ],
+      "providers_added": [
+        9885,
+        55824
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 148100,
+      "providers_before": [],
+      "providers_after": [
+        9885,
+        55824
+      ],
+      "providers_added": [
+        9885,
+        55824
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 197946,
+      "providers_before": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        60976,
+        62563,
+        204203,
+        207459,
+        212248
+      ],
+      "providers_after": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        52025,
+        60976,
+        62563,
+        204203,
+        207459,
+        212248
+      ],
+      "providers_added": [
+        52025
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 199109,
+      "providers_before": [
+        6939,
+        20712,
+        41051,
+        52025,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        20712,
+        41051,
+        47272,
+        52025,
+        56584,
+        209533,
+        212683,
+        212895
+      ],
+      "providers_added": [
+        47272,
+        56584
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 204778,
+      "providers_before": [],
+      "providers_after": [
+        6939,
+        42831,
+        52025,
+        215638
+      ],
+      "providers_added": [
+        6939,
+        42831,
+        52025,
+        215638
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 209990,
+      "providers_before": [
+        6939,
+        8283,
+        34872,
+        34927,
+        52025,
+        56630,
+        208226,
+        211588,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        8283,
+        34927,
+        52025,
+        56630,
+        211588
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        34872,
+        208226,
+        212895
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 211585,
+      "providers_before": [
+        31898,
+        41051,
+        47272,
+        209533,
+        212895
+      ],
+      "providers_after": [
+        7377,
+        31898,
+        41051,
+        47272,
+        209533,
+        212895
+      ],
+      "providers_added": [
+        7377
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 214382,
+      "providers_before": [],
+      "providers_after": [
+        59796,
+        60446,
+        208972
+      ],
+      "providers_added": [
+        59796,
+        60446,
+        208972
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 215899,
+      "providers_before": [
+        8772,
+        11967,
+        29632,
+        41051,
+        56630,
+        208753,
+        209533,
+        212895,
+        393577
+      ],
+      "providers_after": [
+        8772,
+        11967,
+        29632,
+        41051,
+        56630,
+        205941,
+        208753,
+        209533,
+        212895,
+        393577
+      ],
+      "providers_added": [
+        205941
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 219094,
+      "providers_before": [
+        20473,
+        52025,
+        212895
+      ],
+      "providers_after": [
+        52025,
+        212895
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        20473
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 219529,
+      "providers_before": [
+        33755,
+        52025,
+        199746,
+        199829,
+        201279,
+        201398,
+        202831,
+        211358,
+        214205,
+        215685,
+        215828
+      ],
+      "providers_after": [
+        33755,
+        52025,
+        199746,
+        199829,
+        201279,
+        201398,
+        202831,
+        209552,
+        211358,
+        214205,
+        215685,
+        215828
+      ],
+      "providers_added": [
+        209552
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-29",
+      "date_after": "2026-08-30",
+      "customer": 264096,
+      "providers_before": [
+        263482
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        263482
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 20413,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        6939,
+        54033
+      ],
+      "providers_added": [
+        174,
+        6939,
+        54033
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 153952,
+      "providers_before": [],
+      "providers_after": [
+        153371
+      ],
+      "providers_added": [
+        153371
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 197946,
+      "providers_before": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        52025,
+        60976,
+        62563,
+        204203,
+        207459,
+        212248
+      ],
+      "providers_after": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        52025,
+        60976,
+        62563,
+        63023,
+        204203,
+        207459,
+        212248,
+        213905,
+        398999
+      ],
+      "providers_added": [
+        63023,
+        213905,
+        398999
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 199742,
+      "providers_before": [
+        42532,
+        49581,
+        58212,
+        62255
+      ],
+      "providers_after": [
+        30823,
+        42532,
+        49581,
+        58212,
+        62255
+      ],
+      "providers_added": [
+        30823
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 200010,
+      "providers_before": [
+        174,
+        5405,
+        6823,
+        9121,
+        44901,
+        59796
+      ],
+      "providers_after": [
+        174,
+        4849,
+        5405,
+        6823,
+        9121,
+        44901,
+        59796
+      ],
+      "providers_added": [
+        4849
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 203686,
+      "providers_before": [],
+      "providers_after": [
+        8772,
+        8849,
+        29632
+      ],
+      "providers_added": [
+        8772,
+        8849,
+        29632
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 205421,
+      "providers_before": [],
+      "providers_after": [
+        35598,
+        56694,
+        62255
+      ],
+      "providers_added": [
+        35598,
+        56694,
+        62255
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 206033,
+      "providers_before": [
+        9002,
+        13335,
+        20473,
+        60068,
+        136557,
+        137409
+      ],
+      "providers_after": [
+        9002,
+        13335,
+        20473,
+        60068
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        136557,
+        137409
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 207155,
+      "providers_before": [
+        212683
+      ],
+      "providers_after": [
+        202934,
+        212683
+      ],
+      "providers_added": [
+        202934
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 207682,
+      "providers_before": [
+        20473,
+        202585,
+        215085
+      ],
+      "providers_after": [
+        20473,
+        202585,
+        203291,
+        215085
+      ],
+      "providers_added": [
+        203291
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 213529,
+      "providers_before": [],
+      "providers_after": [
+        58212
+      ],
+      "providers_added": [
+        58212
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 214909,
+      "providers_before": [
+        47272,
+        207841,
+        209533,
+        209735,
+        212514
+      ],
+      "providers_after": [
+        47272,
+        56655,
+        207841,
+        209533,
+        209735,
+        212514
+      ],
+      "providers_added": [
+        56655
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 215085,
+      "providers_before": [
+        34927,
+        35133,
+        42093
+      ],
+      "providers_after": [
+        6830,
+        34927,
+        35133,
+        42093,
+        203291
+      ],
+      "providers_added": [
+        6830,
+        203291
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 219505,
+      "providers_before": [
+        20473,
+        41051,
+        210132,
+        212895
+      ],
+      "providers_after": [
+        20473,
+        41051,
+        209533,
+        210132,
+        212895
+      ],
+      "providers_added": [
+        209533
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 262757,
+      "providers_before": [],
+      "providers_after": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_added": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 264512,
+      "providers_before": [
+        7195,
+        28326,
+        61621,
+        263444,
+        264525,
+        270240
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        7195,
+        28326,
+        61621,
+        263444,
+        264525,
+        270240
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-30",
+      "date_after": "2026-08-31",
+      "customer": 402654,
+      "providers_before": [
+        6939,
+        52025,
+        53356,
+        209533,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        52025,
+        53356,
+        205941,
+        209533,
+        212895
+      ],
+      "providers_added": [
+        205941
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 1088,
+      "providers_before": [
+        174,
+        3356
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        174,
+        3356
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 11983,
+      "providers_before": [
+        701,
+        1299,
+        7922
+      ],
+      "providers_after": [
+        174,
+        701,
+        1299,
+        7922
+      ],
+      "providers_added": [
+        174
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 12198,
+      "providers_before": [],
+      "providers_after": [
+        983,
+        6939,
+        9002,
+        14447,
+        17433,
+        18450,
+        27523,
+        38074,
+        40792,
+        44324,
+        59105,
+        137409,
+        139317,
+        206628,
+        213605,
+        216211,
+        393577
+      ],
+      "providers_added": [
+        983,
+        6939,
+        9002,
+        14447,
+        17433,
+        18450,
+        27523,
+        38074,
+        40792,
+        44324,
+        59105,
+        137409,
+        139317,
+        206628,
+        213605,
+        216211,
+        393577
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 24381,
+      "providers_before": [
+        7768,
+        24322,
+        32943,
+        37497,
+        39521,
+        44324,
+        57050,
+        60150,
+        62553,
+        131630,
+        153737,
+        198651,
+        199656,
+        213929,
+        215228,
+        215956
+      ],
+      "providers_after": [
+        7768,
+        24322,
+        32943,
+        37497,
+        39521,
+        44324,
+        57050,
+        60150,
+        62553,
+        131630,
+        153737,
+        198651,
+        199656,
+        213929,
+        215956
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        215228
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 32518,
+      "providers_before": [],
+      "providers_after": [
+        174
+      ],
+      "providers_added": [
+        174
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 41765,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        3356,
+        8218,
+        29075,
+        30781
+      ],
+      "providers_added": [
+        174,
+        3356,
+        8218,
+        29075,
+        30781
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 43160,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        29119
+      ],
+      "providers_added": [
+        174,
+        29119
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 137385,
+      "providers_before": [],
+      "providers_after": [
+        58682,
+        58717,
+        132602,
+        138640,
+        138915,
+        139341,
+        140684
+      ],
+      "providers_added": [
+        58682,
+        58717,
+        132602,
+        138640,
+        138915,
+        139341,
+        140684
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 153315,
+      "providers_before": [],
+      "providers_after": [
+        38195
+      ],
+      "providers_added": [
+        38195
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 154158,
+      "providers_before": [],
+      "providers_after": [
+        149649
+      ],
+      "providers_added": [
+        149649
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 200879,
+      "providers_before": [
+        6939,
+        11967,
+        20473,
+        34927,
+        41051,
+        47272,
+        56655,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        11967,
+        20473,
+        34927,
+        41051,
+        47272,
+        52025,
+        56655,
+        212895
+      ],
+      "providers_added": [
+        52025
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 202119,
+      "providers_before": [
+        34927,
+        41051,
+        207252
+      ],
+      "providers_after": [
+        34927,
+        41051,
+        201398,
+        207252
+      ],
+      "providers_added": [
+        201398
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 203024,
+      "providers_before": [
+        35661,
+        214145
+      ],
+      "providers_after": [
+        214145,
+        219127
+      ],
+      "providers_added": [
+        219127
+      ],
+      "providers_removed": [
+        35661
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 204464,
+      "providers_before": [
+        52025,
+        201541,
+        205305,
+        205941,
+        207841,
+        213413,
+        214915,
+        215120,
+        215375,
+        215828,
+        393577
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        52025,
+        201541,
+        205305,
+        205941,
+        207841,
+        213413,
+        214915,
+        215120,
+        215375,
+        215828,
+        393577
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 205789,
+      "providers_before": [
+        200242,
+        207960
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        200242,
+        207960
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 209505,
+      "providers_before": [
+        1299,
+        2914,
+        6762
+      ],
+      "providers_after": [
+        1299,
+        2914,
+        6762,
+        35200
+      ],
+      "providers_added": [
+        35200
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 210561,
+      "providers_before": [
+        207960
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        207960
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 212037,
+      "providers_before": [],
+      "providers_after": [
+        2027,
+        6939,
+        24381,
+        35661,
+        35708,
+        41051,
+        51706,
+        209533
+      ],
+      "providers_added": [
+        2027,
+        6939,
+        24381,
+        35661,
+        35708,
+        41051,
+        51706,
+        209533
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 212341,
+      "providers_before": [],
+      "providers_after": [
+        1299,
+        3209,
+        3320,
+        6939,
+        8881,
+        33891,
+        198930
+      ],
+      "providers_added": [
+        1299,
+        3209,
+        3320,
+        6939,
+        8881,
+        33891,
+        198930
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 212855,
+      "providers_before": [
+        8283,
+        8298,
+        41051,
+        50869,
+        200132,
+        203291
+      ],
+      "providers_after": [
+        8283,
+        41051,
+        50869,
+        200132,
+        203291
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        8298
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 214749,
+      "providers_before": [],
+      "providers_after": [
+        6939,
+        8849,
+        20473,
+        34927,
+        47272,
+        52025,
+        207841,
+        209533,
+        212895,
+        214915,
+        215638
+      ],
+      "providers_added": [
+        6939,
+        8849,
+        20473,
+        34927,
+        47272,
+        52025,
+        207841,
+        209533,
+        212895,
+        214915,
+        215638
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 214757,
+      "providers_before": [],
+      "providers_after": [
+        6204,
+        6939,
+        34854,
+        34927,
+        49127,
+        50263,
+        50338,
+        50917,
+        57463,
+        60068,
+        137409,
+        214331
+      ],
+      "providers_added": [
+        6204,
+        6939,
+        34854,
+        34927,
+        49127,
+        50263,
+        50338,
+        50917,
+        57463,
+        60068,
+        137409,
+        214331
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 218842,
+      "providers_before": [
+        212895
+      ],
+      "providers_after": [
+        24940,
+        212895
+      ],
+      "providers_added": [
+        24940
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 219127,
+      "providers_before": [],
+      "providers_after": [
+        214145
+      ],
+      "providers_added": [
+        214145
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 219522,
+      "providers_before": [],
+      "providers_after": [
+        214749,
+        214915
+      ],
+      "providers_added": [
+        214749,
+        214915
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 262757,
+      "providers_before": [
+        4230,
+        16735,
+        61642
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        4230,
+        16735,
+        61642
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 264096,
+      "providers_before": [],
+      "providers_after": [
+        263482
+      ],
+      "providers_added": [
+        263482
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 267448,
+      "providers_before": [
+        53062,
+        53175
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        53062,
+        53175
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-08-31",
+      "date_after": "2026-09-01",
+      "customer": 273328,
+      "providers_before": [
+        264270,
+        269501
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        264270,
+        269501
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "lacnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 2572,
+      "providers_before": [
+        174,
+        1299,
+        3257,
+        11164,
+        11317,
+        11537,
+        396450
+      ],
+      "providers_after": [
+        174,
+        1299,
+        3257,
+        6939,
+        11164,
+        11317,
+        11537,
+        396450
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "arin"
+      ],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 4758,
+      "providers_before": [],
+      "providers_after": [
+        9885,
+        55824
+      ],
+      "providers_added": [
+        9885,
+        55824
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 13696,
+      "providers_before": [],
+      "providers_after": [
+        7720,
+        20473,
+        44324,
+        53808
+      ],
+      "providers_added": [
+        7720,
+        20473,
+        44324,
+        53808
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 15935,
+      "providers_before": [
+        174,
+        1299,
+        9002
+      ],
+      "providers_after": [
+        174,
+        1299,
+        9002,
+        49559
+      ],
+      "providers_added": [
+        49559
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 24904,
+      "providers_before": [
+        174,
+        6762
+      ],
+      "providers_after": [
+        174,
+        6762,
+        6939
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 36096,
+      "providers_before": [],
+      "providers_after": [
+        11990
+      ],
+      "providers_added": [
+        11990
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 46832,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        1299,
+        3257,
+        6939,
+        11164,
+        11317,
+        11537,
+        396450
+      ],
+      "providers_added": [
+        174,
+        1299,
+        3257,
+        6939,
+        11164,
+        11317,
+        11537,
+        396450
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 49418,
+      "providers_before": [
+        30823,
+        31500,
+        35598,
+        49612,
+        62255
+      ],
+      "providers_after": [
+        30823,
+        31500,
+        35598,
+        49612,
+        59692,
+        62255
+      ],
+      "providers_added": [
+        59692
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 55824,
+      "providers_before": [],
+      "providers_after": [
+        4758,
+        9885
+      ],
+      "providers_added": [
+        4758,
+        9885
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 55847,
+      "providers_before": [],
+      "providers_after": [
+        55824
+      ],
+      "providers_added": [
+        55824
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 57027,
+      "providers_before": [
+        16276,
+        41051,
+        48715,
+        51026,
+        211358,
+        393577
+      ],
+      "providers_after": [
+        16276,
+        41051,
+        48715,
+        51026,
+        211358,
+        212895,
+        393577
+      ],
+      "providers_added": [
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 59761,
+      "providers_before": [],
+      "providers_after": [
+        34428
+      ],
+      "providers_added": [
+        34428
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 59920,
+      "providers_before": [
+        16276,
+        20473,
+        30456,
+        142064
+      ],
+      "providers_after": [
+        16276,
+        20473,
+        30456,
+        37988,
+        60841,
+        142064
+      ],
+      "providers_added": [
+        37988,
+        60841
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 62416,
+      "providers_before": [],
+      "providers_after": [
+        5533,
+        6424,
+        6939,
+        8426
+      ],
+      "providers_added": [
+        5533,
+        6424,
+        6939,
+        8426
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 132104,
+      "providers_before": [],
+      "providers_after": [
+        131284
+      ],
+      "providers_added": [
+        131284
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 133762,
+      "providers_before": [],
+      "providers_after": [
+        6939
+      ],
+      "providers_added": [
+        6939
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 136525,
+      "providers_before": [],
+      "providers_after": [
+        38193,
+        132165
+      ],
+      "providers_added": [
+        38193,
+        132165
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 137385,
+      "providers_before": [
+        58682,
+        58717,
+        132602,
+        138640,
+        138915,
+        139341,
+        140684
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        58682,
+        58717,
+        132602,
+        138640,
+        138915,
+        139341,
+        140684
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "apnic"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 138350,
+      "providers_before": [],
+      "providers_after": [
+        139922
+      ],
+      "providers_added": [
+        139922
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 141372,
+      "providers_before": [],
+      "providers_after": [
+        139820,
+        150750
+      ],
+      "providers_added": [
+        139820,
+        150750
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 153610,
+      "providers_before": [],
+      "providers_after": [
+        23956,
+        58689,
+        134732,
+        152718
+      ],
+      "providers_added": [
+        23956,
+        58689,
+        134732,
+        152718
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 154189,
+      "providers_before": [],
+      "providers_after": [
+        58717
+      ],
+      "providers_added": [
+        58717
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "apnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 196969,
+      "providers_before": [],
+      "providers_after": [
+        50607,
+        58307,
+        62081,
+        197099
+      ],
+      "providers_added": [
+        50607,
+        58307,
+        62081,
+        197099
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 197946,
+      "providers_before": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        52025,
+        60976,
+        62563,
+        63023,
+        204203,
+        207459,
+        212248,
+        213905,
+        398999
+      ],
+      "providers_after": [
+        24381,
+        43754,
+        44620,
+        48147,
+        48434,
+        50049,
+        52025,
+        57724,
+        59692,
+        60976,
+        62563,
+        63023,
+        204203,
+        207459,
+        212248,
+        213905,
+        398999
+      ],
+      "providers_added": [
+        57724,
+        59692
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 202359,
+      "providers_before": [
+        6939,
+        44355
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        6939,
+        44355
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 202907,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        2856,
+        5089
+      ],
+      "providers_added": [
+        174,
+        2856,
+        5089
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 204406,
+      "providers_before": [],
+      "providers_after": [
+        41051,
+        209533
+      ],
+      "providers_added": [
+        41051,
+        209533
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 204676,
+      "providers_before": [],
+      "providers_after": [
+        34927,
+        44324,
+        52025,
+        53356,
+        53667,
+        214481,
+        215467,
+        399646
+      ],
+      "providers_added": [
+        34927,
+        44324,
+        52025,
+        53356,
+        53667,
+        214481,
+        215467,
+        399646
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 205789,
+      "providers_before": [],
+      "providers_after": [
+        200242,
+        207960
+      ],
+      "providers_added": [
+        200242,
+        207960
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 206271,
+      "providers_before": [
+        44620,
+        60707,
+        212895
+      ],
+      "providers_after": [
+        60707
+      ],
+      "providers_added": [],
+      "providers_removed": [
+        44620,
+        212895
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 207960,
+      "providers_before": [
+        6939,
+        20473,
+        34854,
+        34927,
+        44355,
+        202359,
+        207968
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        6939,
+        20473,
+        34854,
+        34927,
+        44355,
+        202359,
+        207968
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 214443,
+      "providers_before": [
+        6762,
+        35836,
+        41327,
+        61968,
+        196959,
+        202056
+      ],
+      "providers_after": [
+        6762,
+        35836,
+        41327,
+        47217,
+        61968,
+        196959,
+        202056
+      ],
+      "providers_added": [
+        47217
+      ],
+      "providers_removed": [],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 214630,
+      "providers_before": [
+        6939,
+        11967,
+        26042,
+        205941,
+        209874,
+        212895
+      ],
+      "providers_after": [
+        6939,
+        11967,
+        26042,
+        205941,
+        209874,
+        215828
+      ],
+      "providers_added": [
+        215828
+      ],
+      "providers_removed": [
+        212895
+      ],
+      "customer_created": false,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 1,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 214675,
+      "providers_before": [],
+      "providers_after": [
+        6204,
+        6939,
+        9663,
+        11967,
+        34872,
+        34927,
+        38074,
+        41051,
+        61138,
+        63798,
+        150369,
+        209533,
+        212895,
+        214331,
+        214757,
+        214809,
+        215828,
+        216324,
+        270013
+      ],
+      "providers_added": [
+        6204,
+        6939,
+        9663,
+        11967,
+        34872,
+        34927,
+        38074,
+        41051,
+        61138,
+        63798,
+        150369,
+        209533,
+        212895,
+        214331,
+        214757,
+        214809,
+        215828,
+        216324,
+        270013
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 215228,
+      "providers_before": [
+        12956,
+        43298,
+        59796,
+        133275,
+        136946,
+        149240,
+        212895,
+        219331
+      ],
+      "providers_after": [],
+      "providers_added": [],
+      "providers_removed": [
+        12956,
+        43298,
+        59796,
+        133275,
+        136946,
+        149240,
+        212895,
+        219331
+      ],
+      "customer_created": false,
+      "customer_deleted": true,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 1,
+      "object_count_after": 0,
+      "tals_before": [
+        "ripencc"
+      ],
+      "tals_after": []
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 218804,
+      "providers_before": [],
+      "providers_after": [
+        212895,
+        219331
+      ],
+      "providers_added": [
+        212895,
+        219331
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 218822,
+      "providers_before": [],
+      "providers_after": [
+        14618,
+        16509,
+        20473,
+        24381,
+        31898,
+        41051,
+        47272,
+        207841,
+        209533,
+        209735,
+        212895
+      ],
+      "providers_added": [
+        14618,
+        16509,
+        20473,
+        24381,
+        31898,
+        41051,
+        47272,
+        207841,
+        209533,
+        209735,
+        212895
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "ripencc"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 262494,
+      "providers_before": [],
+      "providers_after": [
+        7195,
+        262999,
+        264409
+      ],
+      "providers_added": [
+        7195,
+        262999,
+        264409
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "lacnic"
+      ]
+    },
+    {
+      "date_before": "2026-09-01",
+      "date_after": "2026-09-02",
+      "customer": 399187,
+      "providers_before": [],
+      "providers_after": [
+        174,
+        209
+      ],
+      "providers_added": [
+        174,
+        209
+      ],
+      "providers_removed": [],
+      "customer_created": true,
+      "customer_deleted": false,
+      "as0_only_before": false,
+      "as0_only_after": false,
+      "object_count_before": 0,
+      "object_count_after": 1,
+      "tals_before": [],
+      "tals_after": [
+        "arin"
+      ]
+    }
+  ]
+}

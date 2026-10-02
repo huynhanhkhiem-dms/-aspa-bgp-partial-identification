@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility artifact, please cite the associated manuscript."
+title: "Fallback-Preserving Partial Identification for Asynchronous Routing-Security Measurements: Sharp Robust Quorum Bounds for ASPA-BGP Measurement"
+type: software
+authors:
+  - family-names: "Huynh"
+    given-names: "Anh Khiem"
+    orcid: "https://orcid.org/0009-0007-7210-174X"
+version: "2026-09-16"
+date-released: "2026-09-16"

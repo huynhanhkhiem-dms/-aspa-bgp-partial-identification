@@ -1,0 +1,45 @@
+DATA CONTRACTS
+
+INPUT: data/input/aspa_snapshots_2026-08-26_09-02.json
+Required top-level fields:
+- manifest: snapshot/TAL metadata
+- aspas: rows with date, tal, customer, providers
+Semantics:
+- the archived extraction is an RP/TAL-level provider view; rows for a customer/date are unioned into an effective U-SPAS
+- AS0 is removed from an effective U-SPAS whenever any nonzero provider is present, per profile-29 section 5.2
+- object creation/deletion is retained in the source-local illustration but excluded from the explicit provider-modification denominator
+
+INPUT: data/input/pilot_signing_time_probe_1h.csv
+Required fields:
+- date_before, date_after
+- customer, provider, change
+- exact_status
+- signing_time_utc, probe_time_utc
+- adjacent_paths, prefixes, vantages
+- clock_basis, first_seen_confirmed, interpretation
+Candidate statuses used by the source-local illustration:
+- route_observed_before_embedded_signing_time
+- route_observed_after_embedded_signing_time
+These statuses are candidate diagnostics, not confirmed authorization-gap labels. Daily snapshots do not exclude hidden intra-bracket reversals; any resolution margin computed from these rows is conditional on the single-transition support model.
+
+OUTPUT: data/output/aspa_changes_2026-08-26_09-02.json
+Contains daily transition summaries and per-customer added/removed provider lists.
+
+OUTPUT: data/output/synthetic_identification_stress.csv/.summary.json
+Contains source-local ambiguity, midpoint-error, identified-width, and resolved-error metrics for each bracket width/direction.
+
+OUTPUT: data/output/synthetic_quorum_stress.csv/.summary.json
+Contains five-of-eight quorum ambiguity, midpoint-quorum error, true-quorum rate, and resolved-error metrics for each bracket width.
+
+OUTPUT: data/output/pilot_bracket_reclassification_1h.json
+Computes single-transition-conditional source-local classifications from the daily RPKI snapshot bracket and the covered probe time; the result is a resolution-sensitivity diagnostic, not unconditional sharp field identification.
+
+OUTPUT: data/output/synthetic_coupled_quorum_stress.csv/.summary.json
+Contains separable-vs-coupled five-of-eight quorum ambiguity, ambiguity reduction, midpoint-quorum error, coupled resolved-error counts, separable-label reversal counts, and shared-model feasibility diagnostics for each bracket width. The generator is dimensionless and uses known synthetic shared-event/delay support; it is not an Internet delay model.
+
+ADDITIONAL FIELDS: data/output/pilot_bracket_reclassification_1h.json
+For timing-ambiguous candidate probes, decision_resolution_margin_hours is min(P-L,U-P), the single-transition-conditional descriptive distance from the probe to the nearest covered daily bracket endpoint. Aggregate median/min/max and counts within 1 h / 8 h are reported for the 12 candidates. The margin is descriptive and is not a guarantee that polling after that duration resolves the event.
+
+
+OUTPUT: data/output/synthetic_robust_coupling_stress.csv/.summary.json
+Contains separable, strict-coupled, and q=1 robust-coupled five-of-eight quorum diagnostics under one deliberately misspecified source-to-common-event delay constraint. Every source-local bracket remains valid. The robust model allows at most one invalid coupling constraint and retains that source's local interval evidence. The generator is dimensionless and is not an Internet contamination-prevalence model.

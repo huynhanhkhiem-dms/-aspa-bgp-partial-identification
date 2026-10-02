@@ -1,0 +1,70 @@
+{
+  "all_resolved_quorum_decisions_correct": true,
+  "generator": {
+    "bgp_episode": "S~Uniform(0,0.95), duration~Uniform(0.02,0.45), E=min(1,S+duration)",
+    "note": "dimensionless implementation stress test; not calibrated to Internet prevalence or timing",
+    "source_local_transition": "L~Uniform(0,1-w), U=L+w, A~Uniform(L,U) independently per source pair",
+    "transition_direction": "one shared addition/removal direction per event"
+  },
+  "n_events_per_width": 100000,
+  "quorum_k": 5,
+  "rows": [
+    {
+      "ambiguous_pct": 1.9109999999999998,
+      "bracket_width": 0.01,
+      "midpoint_quorum_error_pct": 0.515,
+      "n_events": 100000,
+      "quorum_k": 5,
+      "resolved_errors": 0,
+      "resolved_pct": 98.089,
+      "sources_per_event": 8,
+      "true_quorum_positive_pct": 59.678
+    },
+    {
+      "ambiguous_pct": 9.707,
+      "bracket_width": 0.05,
+      "midpoint_quorum_error_pct": 2.394,
+      "n_events": 100000,
+      "quorum_k": 5,
+      "resolved_errors": 0,
+      "resolved_pct": 90.293,
+      "sources_per_event": 8,
+      "true_quorum_positive_pct": 60.021
+    },
+    {
+      "ambiguous_pct": 19.463,
+      "bracket_width": 0.1,
+      "midpoint_quorum_error_pct": 4.61,
+      "n_events": 100000,
+      "quorum_k": 5,
+      "resolved_errors": 0,
+      "resolved_pct": 80.537,
+      "sources_per_event": 8,
+      "true_quorum_positive_pct": 60.423
+    },
+    {
+      "ambiguous_pct": 47.119,
+      "bracket_width": 0.25,
+      "midpoint_quorum_error_pct": 10.323,
+      "n_events": 100000,
+      "quorum_k": 5,
+      "resolved_errors": 0,
+      "resolved_pct": 52.881,
+      "sources_per_event": 8,
+      "true_quorum_positive_pct": 61.172000000000004
+    },
+    {
+      "ambiguous_pct": 80.948,
+      "bracket_width": 0.5,
+      "midpoint_quorum_error_pct": 17.128,
+      "n_events": 100000,
+      "quorum_k": 5,
+      "resolved_errors": 0,
+      "resolved_pct": 19.052,
+      "sources_per_event": 8,
+      "true_quorum_positive_pct": 61.836999999999996
+    }
+  ],
+  "seed": 20260914,
+  "sources_per_event": 8
+}

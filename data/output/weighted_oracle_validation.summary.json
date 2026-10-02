@@ -1,0 +1,15 @@
+{
+  "all_instances_match": true,
+  "infeasible_instances": 3495,
+  "match_count": 20000,
+  "mismatch_count": 0,
+  "mismatch_examples": [],
+  "n_instances": 20000,
+  "oracle_description": "relaxed-source identity enumeration with independent local geometry and strict theta-cell enumeration",
+  "q_sampling": "uniform on 0..M per instance",
+  "seed": 20260916,
+  "weights": [
+    0,
+    5
+  ]
+}

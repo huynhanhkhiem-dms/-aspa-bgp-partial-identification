@@ -1,0 +1,137 @@
+{
+  "ambiguous_within_12h_of_endpoint": 12,
+  "ambiguous_within_1h_of_endpoint": 1,
+  "ambiguous_within_4h_of_endpoint": 2,
+  "ambiguous_within_6h_of_endpoint": 5,
+  "ambiguous_within_8h_of_endpoint": 8,
+  "daily_snapshot_bracket_definite_gap": 0,
+  "daily_snapshot_bracket_no_gap": 0,
+  "daily_snapshot_bracket_timing_ambiguous": 12,
+  "decision_resolution_margin_hours_max": 10.516111111111112,
+  "decision_resolution_margin_hours_median": 6.015694444444444,
+  "decision_resolution_margin_hours_min": 0.2311111111111111,
+  "interpretation": "single-transition-conditional candidate diagnostics using daily brackets; embedded CMS signing time is not treated as transition time and hidden intra-bracket reversals are not excluded",
+  "rows": [
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 16652,
+      "decision_resolution_margin_hours": 6.964444444444444,
+      "probe_time_utc": "2026-08-26T11:19:02+00:00",
+      "provider": 6939,
+      "snapshot_after_utc": "2026-08-27T04:23:49+00:00",
+      "snapshot_before_utc": "2026-08-26T04:21:10+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 401315,
+      "decision_resolution_margin_hours": 10.516111111111112,
+      "probe_time_utc": "2026-08-26T14:52:08+00:00",
+      "provider": 6939,
+      "snapshot_after_utc": "2026-08-27T04:23:49+00:00",
+      "snapshot_before_utc": "2026-08-26T04:21:10+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "removed",
+      "customer": 43171,
+      "decision_resolution_margin_hours": 5.803055555555556,
+      "probe_time_utc": "2026-08-27T10:26:49+00:00",
+      "provider": 24115,
+      "snapshot_after_utc": "2026-08-28T04:42:57+00:00",
+      "snapshot_before_utc": "2026-08-27T04:38:38+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 59970,
+      "decision_resolution_margin_hours": 0.2311111111111111,
+      "probe_time_utc": "2026-08-28T04:56:49+00:00",
+      "provider": 6939,
+      "snapshot_after_utc": "2026-08-29T04:42:17+00:00",
+      "snapshot_before_utc": "2026-08-28T04:42:57+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "removed",
+      "customer": 206033,
+      "decision_resolution_margin_hours": 4.194166666666667,
+      "probe_time_utc": "2026-08-30T08:55:12+00:00",
+      "provider": 136557,
+      "snapshot_after_utc": "2026-08-31T04:38:22+00:00",
+      "snapshot_before_utc": "2026-08-30T04:43:33+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 207682,
+      "decision_resolution_margin_hours": 6.015555555555555,
+      "probe_time_utc": "2026-08-30T10:44:29+00:00",
+      "provider": 203291,
+      "snapshot_after_utc": "2026-08-31T04:38:22+00:00",
+      "snapshot_before_utc": "2026-08-30T04:43:33+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 215085,
+      "decision_resolution_margin_hours": 6.015833333333333,
+      "probe_time_utc": "2026-08-30T10:44:30+00:00",
+      "provider": 6830,
+      "snapshot_after_utc": "2026-08-31T04:38:22+00:00",
+      "snapshot_before_utc": "2026-08-30T04:43:33+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "removed",
+      "customer": 212855,
+      "decision_resolution_margin_hours": 9.890833333333333,
+      "probe_time_utc": "2026-08-31T18:43:12+00:00",
+      "provider": 8298,
+      "snapshot_after_utc": "2026-09-01T04:36:39+00:00",
+      "snapshot_before_utc": "2026-08-31T04:38:22+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 2572,
+      "decision_resolution_margin_hours": 8.191666666666666,
+      "probe_time_utc": "2026-09-01T20:07:46+00:00",
+      "provider": 6939,
+      "snapshot_after_utc": "2026-09-02T04:19:16+00:00",
+      "snapshot_before_utc": "2026-09-01T04:19:37+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 24904,
+      "decision_resolution_margin_hours": 4.859166666666667,
+      "probe_time_utc": "2026-09-01T09:28:12+00:00",
+      "provider": 6939,
+      "snapshot_after_utc": "2026-09-02T04:32:46+00:00",
+      "snapshot_before_utc": "2026-09-01T04:36:39+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 49418,
+      "decision_resolution_margin_hours": 9.609166666666667,
+      "probe_time_utc": "2026-09-01T14:13:12+00:00",
+      "provider": 59692,
+      "snapshot_after_utc": "2026-09-02T04:32:46+00:00",
+      "snapshot_before_utc": "2026-09-01T04:36:39+00:00"
+    },
+    {
+      "bracket_classification": "timing_ambiguous",
+      "change": "added",
+      "customer": 59920,
+      "decision_resolution_margin_hours": 3.7591666666666668,
+      "probe_time_utc": "2026-09-01T08:22:12+00:00",
+      "provider": 37988,
+      "snapshot_after_utc": "2026-09-02T04:32:46+00:00",
+      "snapshot_before_utc": "2026-09-01T04:36:39+00:00"
+    }
+  ],
+  "signing_time_candidate_rows": 12
+}

@@ -1,0 +1,55 @@
+{
+  "seed": 20260914,
+  "m_sources": 8,
+  "alpha": 0.05,
+  "nominal_coverage": 0.95,
+  "n_calibration_events": 199,
+  "n_repetitions": 20000,
+  "exchangeable_generator_probabilities": [
+    0.62,
+    0.25,
+    0.1,
+    0.03,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "shifted_test_probabilities": [
+    0.2,
+    0.25,
+    0.25,
+    0.2,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "exchangeable": {
+    "coverage": 0.9714,
+    "q_distribution": {
+      "1": 5e-05,
+      "2": 0.91955,
+      "3": 0.0804
+    },
+    "mean_excess_violations_when_undercovered": 1.0,
+    "undercoverage_events": 572
+  },
+  "deliberate_distribution_shift": {
+    "coverage": 0.71595,
+    "q_distribution": {
+      "1": 0.0001,
+      "2": 0.92095,
+      "3": 0.07895
+    },
+    "mean_excess_violations_when_undercovered": 1.319838056680162,
+    "undercoverage_events": 5681
+  },
+  "checks": {
+    "exchangeable_empirical_coverage_at_least_nominal_minus_mc_tol": true,
+    "shift_stress_is_lower_than_exchangeable": true
+  },
+  "interpretation": "The exchangeable result is a Monte Carlo check of the finite-sample order-statistic rule. The shifted scenario is deliberately outside the theorem and is included to expose, not hide, the assumption boundary."
+}

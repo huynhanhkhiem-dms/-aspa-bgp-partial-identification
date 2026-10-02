@@ -1,0 +1,139 @@
+METHOD SPECIFICATION
+
+1. OBSERVED OBJECT
+For one source-local observation pair, A is the time at which that RPKI observation source's observable authorization state changes. It is not operator intent, an internal commit time, CMS signing time, or necessarily a single globally visible publication time. The analysis uses a declared transition-time support [L,U] constructed from covered last-before/first-after observations under the source's timestamp-resolution convention. L and U are support endpoints, not claims that the raw snapshot instants themselves are feasible transition instants. A finite covered BGP provider-use episode is [S,E), S<E.
+
+2. ADDITION AND REMOVAL DURATIONS
+Addition (Not Provider+ -> Provider+):
+  D_add(A) = max( min(E,A) - S, 0 )
+
+Removal (Provider+ -> Not Provider+):
+  D_rem(A) = max( E - max(S,A), 0 )
+
+3. ASSUMPTIONS AND SHARPNESS
+A1-S (single-transition support for sharp claims): coverage and event lineage establish exactly one target transition of the stated direction relevant to the covered BGP episode, with declared feasible transition-time support [L,U]. Hidden reversals inside the support are excluded when a result is labeled sharp.
+A1-O (conservative endpoint-closure / sensitivity mode): if raw endpoint semantics produce a single-transition feasible set J whose closure is contained in [L,U], the implementation may analyze [L,U] as a fail-closed outer support. If hidden reversals cannot be excluded, the record is not eligible for single-transition sharpness; it is censored for theorem-level identification or reported explicitly as a sensitivity calculation conditional on A1-S.
+A2: [S,E) is a finite covered BGP provider-use episode; missing boundaries are censored.
+A3: ASPA and BGP edge semantics are valid for the analyzed pair.
+A4: separable aggregate/quorum sharpness assumes no extra cross-event or cross-source timing restrictions beyond local identified sets.
+A5: optional strict shared-event coupling for lineage-linked sources: A_j=theta+delta_j with one latent source event theta, source-specific delay envelope alpha_j<=delta_j<=beta_j, and no additional cross-source restriction on the delay vector conditional on theta. Delay envelopes and lineage must be justified independently of the desired quorum result.
+A6(q): robust coupling sensitivity model. Every source-local target-transition support remains valid under A1-S (or is deliberately treated as its A1-O outer support), but up to q of the source-to-common-event constraints in A5 may be invalid. Relaxed sources revert to their source-local interval evidence; they are not deleted from the k-of-M denominator. q is a prespecified sensitivity parameter, not selected to obtain a desired label.
+Event-level bounds are sharp under A1-S and A2-A3. Separable aggregate/quorum extrema are sharp under A1-S and A2-A4. Strict coupled quorum extrema are sharp under A1-S, A2-A3 and A5. Robust coupled extrema are sharp under A1-S, A2-A3 and A6(q). A1-O is conservative/sensitivity mode and is not used to assert hidden-reversal sharpness.
+
+4. SHARP EVENT-LEVEL BOUNDS
+Addition:
+  lower = max( min(E,L) - S, 0 )
+  upper = max( min(E,U) - S, 0 )
+
+Removal:
+  lower = max( E - max(S,U), 0 )
+  upper = max( E - max(S,L), 0 )
+
+Classification at threshold tau:
+  definite positive if lower > tau
+  ruled out if upper <= tau
+  timing ambiguous otherwise
+
+ENDPOINT-CLOSURE SAFETY
+For any nonempty single-transition feasible-time set J contained in [L,U] with closure(J)=[L,U], continuity of D_add and D_rem implies that the infimum/supremum over J equal the minimum/maximum over [L,U]. Therefore the closed-support bounds are the exact closed hull of the single-transition identified set. For the strict event D>tau, analyzing the closed hull is fail-closed: excluding a raw endpoint can turn an equality-boundary ambiguity into a resolved decision, but a decision already resolved under the closed hull remains valid for J. This statement does not apply when hidden reversals make the single-transition functional itself invalid.
+
+POINT-OBSERVATION SPECIALIZATION
+For one covered BGP edge observation at time P:
+  addition: definite if P<L; no gap if P>=U; ambiguous otherwise
+  removal: definite if P>=U; no gap if P<L; ambiguous otherwise
+For an ambiguous point P strictly inside [L,U], the infimal one-sided bracket tightening needed to leave ambiguity is min(P-L,U-P). This is a resolution budget, not a guarantee that waiting the same wall-clock duration resolves the event. This specialization is used only as a conditional single-transition sensitivity calculation for the archived one-hour pilot probes without treating CMS signing time as the authorization-transition time. For the packaged 12 cases, each probe falls strictly inside its covered daily endpoint bracket. Daily snapshots cannot exclude an unobserved intra-bracket reversal, so these rows are candidate diagnostics rather than unconditional sharp field identification.
+
+5. THRESHOLD DECISION BOUNDARY
+For 0 <= tau < E-S:
+  addition: D>tau iff A>S+tau
+  removal: D>tau iff A<E-tau
+Thus a threshold decision depends only on whether [L,U] lies wholly on one side of the event-specific boundary, or straddles it. If tau >= E-S, exceedance is impossible.
+
+6. INFORMATION WIDTH
+For transition-bracket width w_A=U-L and BGP-episode width w_B=E-S:
+  0 <= upper-lower <= min(w_A,w_B)
+A refined bracket contained in [L,U] cannot enlarge the duration identified set.
+
+7. THRESHOLD-EXCEEDANCE ENVELOPE
+For event bounds [lower_i,upper_i] and Q(tau)=N^{-1} sum 1{D_i>tau}:
+  Q_L(tau) = N^{-1} sum 1{lower_i>tau}
+  Q_U(tau) = N^{-1} sum 1{upper_i>tau}
+Under A4, these are pointwise sharp; with additional cross-event restrictions they remain valid outer bounds and may be tightened.
+
+8. MULTI-VANTAGE k-of-M QUORUM
+For source-local bounds j=1..M:
+  K_L(tau) = sum 1{lower_j>tau}
+  K_U(tau) = sum 1{upper_j>tau}
+A k-of-M rule is confirmed if K_L>=k, ruled out if K_U<k, and quorum-ambiguous otherwise. Under A4, the count interval is sharp; with additional cross-source timing restrictions it remains a valid outer bound and may be tightened.
+
+
+9. STRICT AND ROBUST SHARED-EVENT COUPLING
+For lineage-linked source-local observations j=1..M:
+  A_j = theta + delta_j
+  A_j in [L_j,U_j], delta_j in [alpha_j,beta_j].
+The source-implied theta interval is H_j=[L_j-beta_j,U_j-alpha_j]. Under strict coupling (q=0), the exact common-transition set is the classical intersection:
+  Theta = intersection_j H_j
+        = [ max_j(L_j-beta_j), min_j(U_j-alpha_j) ].
+Conditional on feasible theta:
+  I_j(theta) = [ max(L_j,theta+alpha_j), min(U_j,theta+beta_j) ].
+For a common addition, the forced-positive count is minimized at theta_L and the possible-positive count is maximized at theta_U. For a common removal, the endpoints reverse. The strict coupled sharp count envelope is contained in the separable envelope. Classical interval intersection is prior art and is not claimed as novel.
+
+ROBUST q MODEL
+Let up to q source-to-common-event constraints be invalid while every source-local bracket remains valid. A theta is q-feasible when it belongs to at least M-q of the H_j intervals (the standard q-relaxed intersection). Sources whose H_j do not contain theta must be relaxed; additional compatible sources may also be relaxed up to the total budget q. A relaxed source contributes its source-local duration bounds, not zero evidence.
+
+For fixed theta, define local forced/possible indicators (ell_j,u_j) and strict conditional forced/possible indicators (f_j(theta),p_j(theta)). For incompatible sources use (ell_j,u_j). Among compatible sources, relaxing one constraint can only change f_j to ell_j for the lower count and p_j to u_j for the upper count. Therefore the exact lower count subtracts the largest available forced-positive reductions from at most q-r compatible sources, where r is the number of mandatory relaxations; the exact upper count adds the largest possible-positive gains analogously. Global minimization/maximization over q-feasible theta gives sharp robust k-of-M extrema.
+
+FINITE EXACT EVALUATOR
+For a fixed threshold tau, each source contributes at most four theta breakpoints: the two endpoints of H_j and the two conditional threshold-switch points. All forced/possible statuses are constant on every open cell between sorted breakpoints, while strict inequalities may differ exactly at a breakpoint. Evaluating every breakpoint plus one midpoint per adjacent cell is therefore exact. There are at most 8M-1 candidate theta values. For unweighted counts, every relaxation effect is binary, so sorting is unnecessary: the fixed-theta adjustment is the smaller of the remaining relaxation budget and the number of unit lower/upper leverage effects. The packaged unweighted extrema implementation is therefore O(M^2). A nonnegative weighted-score extension is also exact; it sorts weighted leverage effects and is O(M^2 log M). On the same finite theta candidate set, a dynamic program over (relaxations used, positive-source count) recovers the exact attainable integer count set in O(q M^3) time. That exact set can be non-convex; the reported [K_L,K_U] is its sharp interval hull and is sufficient for every monotone k-of-M decision. Let q_min be the smallest q with nonempty q-relaxed common-time support. Nesting starts at q_min; if q_min=0, q=0 recovers strict coupling. q=M recovers separable analysis. Because the model allows up to q invalid coupling constraints, both the exact attainable count set and its sharp interval hull are nested as q increases.
+
+COMMON-STATE SUPPORT IS NOT SUFFICIENT FOR THE DOWNSTREAM QUORUM
+The robust common-time support is not a sufficient statistic for the paper's downstream source-indexed estimand. A two-source q=1 construction in tests/test_interval_identification.py creates two instances with identical source-implied H_j intervals, identical strict and q-relaxed common-time supports, and identical BGP episodes, yet different sharp robust quorum intervals: [0,2] versus [1,2]. The difference arises because a relaxed source retains its own valid local transition bracket rather than disappearing into the fused common-state support. Therefore a support-only fusion rule that keeps only common-state support cannot in general recover the robust downstream quorum extrema. This statement does not rule out richer fusion architectures that retain source-local evidence.
+
+DIAGNOSTIC ONLY
+The smallest q for which the q-relaxed theta support is nonempty is reported as a model-tension diagnostic. q-relaxed intersection itself is established robust set-membership / fault-tolerant interval prior art and is not presented as the paper's new method.
+
+10. DECISION RISK
+If lower <= tau < upper, the same observed bracket admits both binary truths D<=tau and D>tau. A deterministic binary action has worst-case 0-1 loss 1; randomized binary action has minimax risk 1/2. An abstention action with loss below 1/2 is therefore minimax-preferred on the ambiguous region.
+
+11. SYNTHETIC LOCAL STRESS TEST
+Widths: 0.01, 0.05, 0.10, 0.25, 0.50.
+For each width: 200,000 additions + 200,000 removals.
+Transition bracket: L~Uniform(0,1-w), U=L+w, A~Uniform(L,U).
+BGP episode: S~Uniform(0,0.95), duration~Uniform(0.02,0.45), E=min(1,S+duration).
+Baseline: midpoint A_hat=(L+U)/2.
+Seed: 20260914.
+
+12. SYNTHETIC SEPARABLE QUORUM STRESS TEST
+For each width: 100,000 events; eight source-local pairs per event; one shared addition/removal direction; five-of-eight quorum. Source-local brackets and BGP episodes follow the same dimensionless generator. Seed: 20260914.
+
+13. SYNTHETIC COUPLED QUORUM STRESS TEST
+Widths: 0.02, 0.05, 0.10, 0.20, 0.35; 20,000 events per width; 8 sources; k=5; seed 20260914.
+Shared event theta~Uniform(0.15,0.75). For sources j=1..8, source j has delay envelope [0, w*(0.10+0.20*(j-1)/7)] and latent delta_j sampled uniformly inside it. A random width-w local bracket is constructed conditional on containing A_j=theta+delta_j. The exact tau=0 decision boundary c_j is generated as A_j+Uniform(-0.35,0.35); a compatible BGP episode is constructed from that boundary. This dimensionless generator tests the theorem and implementation only and is not calibrated to Internet timing.
+
+14. SYNTHETIC ROBUST-COUPLING STRESS TEST
+Fixed bracket width w=0.35; 10,000 events for each displacement s in {0,0.25,0.50,1,2}; 8 sources; k=5; robust q=1; seed 20260914. Seven source delay constraints are generated inside their stated envelopes. One uniformly selected source draws a valid delay and then receives an additional s*w displacement, while its local [L_j,U_j] bracket remains valid. This creates at most one invalid source-to-common-event delay constraint. We compare separable bounds, strict q=0 coupling, and robust q=1 coupling against latent quorum truth. This is a theorem/implementation misspecification stress test, not an Internet contamination-prevalence model.
+
+15. AUXILIARY STRICT-COUPLING TENSION STRESS TEST
+Fixed bracket width w=0.10; 20,000 events for each displacement in {0,0.25,0.50,1,2}; 8 sources; seed 20260914. This legacy diagnostic reports when strict q=0 coupling becomes infeasible and the associated symmetric interval slack. It is retained as supplementary QA but is not the paper's novelty claim.
+
+16. OPERATIONAL RESOLUTION-SENSITIVITY AUDIT
+Window: 2026-08-26 through 2026-09-02.
+Provider-pair modification denominator excludes ASPA customer-object creation/deletion.
+Embedded CMS signing time is used only as a candidate-generating clock and is not interpreted as trusted RPKI first-seen timing.
+Customer is the resampling cluster for the provider-concentration bootstrap.
+
+17. ADVERSARIAL q-SENSITIVITY VALIDATION
+The contamination budget q is not estimated from the downstream decision and must not be tuned until a preferred label appears. The artifact therefore reports a separate adversarially stratified sensitivity experiment. For one invalid coupling constraint, every source identity is contaminated in turn and both positive and negative displacements are exercised at 0.5 and 1.0 bracket widths. Across 12,800 events, q=1 and q=2 produce zero errors among resolved decisions; q=0 is intentionally misspecified and yields both infeasibility and resolved errors. A second 6,400-event experiment contaminates two source constraints in balanced source pairs. There, q=1 is intentionally underspecified and yields resolved errors, while q=2 and q=3 produce zero resolved errors. Increasing q widens the identified set, making explicit the robustness-versus-resolution trade-off. These are synthetic theorem/implementation stress tests, not estimates of real RPKI contamination rates. In applications, q should be justified ex ante from source provenance or reported as a sensitivity path; the minimum feasible q is only a model-tension diagnostic and is not a license to tune q to the desired result.
+
+
+18. HELD-OUT FINITE-SAMPLE CALIBRATION OF q
+For trusted calibration events i=1,...,n with independently known latent source-event time theta_i, define V_i as the number of source-to-common-event coupling constraints H_ij that exclude theta_i. These calibration events are not used to choose a downstream quorum label. For target miscoverage alpha in (0,1), let k=ceil((n+1)(1-alpha)). If k<=n, set q_hat to the k-th order statistic of V_1,...,V_n; if k=n+1, set q_hat=M. Under exchangeability of V_1,...,V_n,V_{n+1}, rank symmetry gives P(V_{n+1}<=q_hat)>=1-alpha. This is a standard split-conformal/order-statistic prediction argument applied to the discrete violation count; it calibrates the sensitivity budget rather than the downstream decision. The guarantee is marginal and does not survive arbitrary distribution shift.
+
+The artifact validates the rule with M=8, n=199, alpha=0.05 and 20,000 repetitions (seed 20260914). Under the frozen exchangeable generator, empirical coverage is 0.9714 for nominal 0.95. Under a deliberately shifted contamination-count distribution outside the theorem, coverage falls to 0.71595; this negative stress result is retained to make the exchangeability boundary explicit.
+
+
+CROSS-CONFIGURATION VALIDATION
+The structural stress grid varies M in {4,8,16}, prespecified q in {0,1,2}, local bracket width in {0.10,0.35,0.60}, threshold tau in {0,0.10,0.25}, both transition directions, and distinct quorum thresholds near one-third, one-half, and two-thirds of M. Exactly q generated source-to-common-event constraints are invalid while every source-local target-transition bracket remains valid. Frequencies are simulation diagnostics, not Internet prevalence estimates.
+
+INDEPENDENT EXACT-SET ORACLE
+For randomized small cases M=2..5 and q<=2, the oracle enumerates every allowed relaxed-source identity set. For the remaining coupled sources it independently builds the common-time endpoint/threshold-switch breakpoint set and adjacent midpoints, combines all binary source contributions, and unions the resulting counts with the relaxed sources' local binary sets. This oracle does not call the main robust count-set routine while constructing its reference answer.

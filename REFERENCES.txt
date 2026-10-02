@@ -1,0 +1,88 @@
+EXTERNAL SPECIFICATIONS AND DATA CONTEXT
+
+ASPA profile:
+IETF Internet-Draft draft-ietf-sidrops-aspa-profile-29, 29 July 2026.
+https://datatracker.ietf.org/doc/draft-ietf-sidrops-aspa-profile/
+
+ASPA AS_PATH verification:
+IETF Internet-Draft draft-ietf-sidrops-aspa-verification-28, 24 August 2026.
+https://datatracker.ietf.org/doc/draft-ietf-sidrops-aspa-verification/28/
+
+CMS signing-time semantics:
+RFC 9589, May 2024.
+https://www.rfc-editor.org/rfc/rfc9589.html
+
+Route roles / OTC context:
+RFC 9234, May 2022.
+https://www.rfc-editor.org/rfc/rfc9234.html
+
+Cloudflare Radar ASPA historical-data feature context:
+https://developers.cloudflare.com/changelog/post/2026-02-25-radar-aspa-insights/
+
+Cloudflare Radar ASPA path-validation feature context:
+https://developers.cloudflare.com/changelog/post/2026-08-24-radar-aspa-validation/
+
+The URLs above are context/specification references. The artifact does not fetch network data during validation.
+
+Partial-identification background:
+C. F. Manski, Partial Identification of Probability Distributions, Springer, 2003. DOI: 10.1007/b97478
+
+Current ASPA protocol-analysis context:
+IETF Internet-Draft draft-geng-sidrops-aspa-analysis-05, 28 August 2026.
+https://datatracker.ietf.org/doc/draft-geng-sidrops-aspa-analysis/
+
+Regionalized AS-relationship context:
+IETF Internet-Draft draft-shen-sidrops-regionalized-as-relationships-04, 29 August 2026.
+https://datatracker.ietf.org/doc/draft-shen-sidrops-regionalized-as-relationships/
+
+RRDP publication-event semantics:
+RFC 8182, July 2017. DOI: 10.17487/RFC8182
+https://www.rfc-editor.org/rfc/rfc8182.html
+
+Interval-based temporal uncertainty in event systems:
+E. Yoneki and J. Bacon, "Determination of Time and Order for Event-Based Middleware in Mobile Peer-to-Peer Environments," IEEE PerCom Workshops, 2005, pp. 91-96. DOI: 10.1109/PERCOMW.2005.27
+
+C.-G. Lee, A. K. Mok, and P. Konana, "Online Timing Correlation of Streaming Data with Uncertain Timestamps," IEICE Transactions on Information and Systems, vol. E92-D, no. 6, pp. 1260-1267, 2009. DOI: 10.1587/transinf.E92.D.1260
+
+H. Zhang, Y. Diao, and N. Immerman, "Recognizing Patterns in Streams with Imprecise Timestamps," Information Systems, vol. 38, no. 8, pp. 1187-1211, 2013. DOI: 10.1016/j.is.2012.01.002
+
+
+Interval-intersection / robust set-membership prior art used to delimit novelty:
+K. Marzullo and S. S. Owicki, "Maintaining the Time in a Distributed System," Proc. 2nd ACM Symposium on Principles of Distributed Computing (PODC), pp. 295-305, 1983. DOI: 10.1145/800221.806730
+
+U. Schmid and K. Schossmaier, "How to reconcile fault-tolerant interval intersection with the Lipschitz condition," Distributed Computing, vol. 14, no. 2, pp. 101-111, 2001. DOI: 10.1007/PL00008927
+
+L. Jaulin, "Robust set-membership state estimation; application to underwater robotics," Automatica, vol. 45, no. 1, pp. 202-206, 2009. DOI: 10.1016/j.automatica.2008.06.013
+
+RPKI measurement survey context:
+N. Rodday, I. Cunha, R. Bush, E. Katz-Bassett, G. D. Rodosek, T. C. Schmidt, and M. Wählisch, "The Resource Public Key Infrastructure (RPKI): A Survey on Measurements and Future Prospects," IEEE Transactions on Network and Service Management, vol. 21, no. 2, pp. 2353-2373, Apr. 2024. DOI: 10.1109/TNSM.2023.3327455
+
+Additional fault-tolerant interval-fusion prior art delimiting Proposition 8/10:
+K. Marzullo, "Tolerating Failures of Continuous-Valued Sensors," ACM Transactions on Computer Systems, 8(4):284-304, 1990. DOI: 10.1145/128733.128735
+L. Prasad, S. S. Iyengar, R. L. Kashyap, and R. N. Madan, "Functional Characterization of Fault Tolerant Integration in Distributed Sensor Networks," IEEE Transactions on Systems, Man, and Cybernetics, 21(5):1082-1087, 1991. DOI: 10.1109/21.120060
+S. S. Iyengar and L. Prasad, "A General Computational Framework for Distributed Sensing and Fault-Tolerant Sensor Integration," IEEE Transactions on Systems, Man, and Cybernetics, 25(4):643-650, 1995. DOI: 10.1109/21.370195
+D. N. Jayasimha, "Fault Tolerance in Multisensor Networks," IEEE Transactions on Reliability, 45(2):308-315, 1996. DOI: 10.1109/24.510819
+Y. Zhu and B. Li, "Optimal Interval Estimation Fusion Based on Sensor Interval Estimates with Confidence Degrees," Automatica, 42(1):101-108, 2006. DOI: 10.1016/j.automatica.2005.07.008
+O. Bilenne, "Integrity-Directed Sensor Fusion by Robust Risk Assessment of Fault-Tolerant Interval Functions," Proc. 9th International Conference on Information Fusion (FUSION), 2006, pp. 1-8. DOI: 10.1109/ICIF.2006.301685
+R. Ivanov, M. Pajic, and I. Lee, "Attack-Resilient Sensor Fusion for Safety-Critical Cyber-Physical Systems," ACM Transactions on Embedded Computing Systems, 15(1), Article 21, 2016. DOI: 10.1145/2847418
+
+B. Parhami, "Distributed Interval Voting with Node Failures of Various Types," Proc. 21st IEEE International Parallel and Distributed Processing Symposium (IPDPS), 2007, pp. 1-7. DOI: 10.1109/IPDPS.2007.370607
+
+Recent robust-fusion literature checked in the final novelty audit:
+G. R. Murthy and T. J. Swamy, "Worst-Case Optimal Fault-Tolerant, Attack-Resilient Fusion Functions," IETE Journal of Research, vol. 71, no. 2, pp. 449-456, 2025. DOI: 10.1080/03772063.2024.2430685
+H. Zhu, M. J. V. Amuri, J. Shen, and X. Li, "Mean-Shift-Based Robust Distributed Set-Membership Fusion Filtering for Sensor Network Systems with Outliers," Automatica, vol. 177, Article 112345, July 2025. DOI: 10.1016/j.automatica.2025.112345
+
+Both remain common-state fusion/estimation results. They are included to delimit the novelty boundary; neither formulates the source-indexed downstream count/quorum estimand with unknown relaxed coupling identities while retaining each relaxed source's local outcome evidence.
+
+
+Finite-sample q calibration background:
+A. N. Angelopoulos and S. Bates, "Conformal Prediction: A Gentle Introduction," Foundations and Trends in Machine Learning, vol. 16, no. 4, pp. 494-591, 2023. DOI: 10.1561/2200000101
+
+External evidence that trusted RPKI calibration events can be instrumented independently of the downstream ASPA label:
+R. Fontugne, A. Phokeer, C. Pelsser, K. Vermeulen, and R. Bush, "RPKI Time-of-Flight: Tracking Delays in the Management, Control, and Data Planes," Proc. Passive and Active Measurement (PAM), 2023, pp. 429-457. Public experiment repository: https://github.com/romain-fontugne/rov-timing
+K. Z. Sediqi et al., "RPKI Syncing: Delay in Relying Party Synchronization," Proc. Traffic Measurement and Analysis Conference (TMA), 2025. DOI: 10.23919/TMA66427.2025.11097000
+These studies are used only to justify the feasibility of independent timing calibration; their ROA measurements are not relabeled as ASPA observations.
+
+Mechanism-level q-relaxed / Boolean-constraint neighbor checked in the final novelty audit:
+M.-H. Amri, Y. Becis, D. Aubry, N. Ramdani, and M. Fränzle, "Robust Indoor Location Tracking of Multiple Inhabitants Using Only Binary Sensors," Proc. 2015 IEEE International Conference on Automation Science and Engineering (CASE), pp. 194-199, 2015. DOI: 10.1109/COASE.2015.7294061
+This work combines q-relaxed set membership with SAT reasoning over Boolean combinations of arithmetic constraints. It is cited as a close mechanism-level neighbor, not as the same downstream source-indexed estimand.

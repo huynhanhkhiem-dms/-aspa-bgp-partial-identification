@@ -1,0 +1,1483 @@
+{
+  "M": 8,
+  "bracket_width": 0.35,
+  "checks": {
+    "q1_zero_resolved_errors_when_one_constraint_invalid": true,
+    "q2_zero_resolved_errors_when_one_constraint_invalid": true,
+    "q2_zero_resolved_errors_when_two_constraints_invalid": true,
+    "q3_zero_resolved_errors_when_two_constraints_invalid": true
+  },
+  "design": "all eight single-contamination identities x both displacement signs; selected balanced two-source contamination pairs x both signs",
+  "double_contamination": {
+    "aggregate": {
+      "1": {
+        "ambiguous": 3011,
+        "ambiguous_pct": 47.046875,
+        "errors": 88,
+        "infeasible": 1488,
+        "infeasible_pct": 23.25,
+        "n": 6400,
+        "resolved": 1901,
+        "resolved_error_pct": 4.629142556549184
+      },
+      "2": {
+        "ambiguous": 5026,
+        "ambiguous_pct": 78.53125,
+        "errors": 0,
+        "infeasible": 0,
+        "infeasible_pct": 0.0,
+        "n": 6400,
+        "resolved": 1374,
+        "resolved_error_pct": 0.0
+      },
+      "3": {
+        "ambiguous": 5450,
+        "ambiguous_pct": 85.15625,
+        "errors": 0,
+        "infeasible": 0,
+        "infeasible_pct": 0.0,
+        "n": 6400,
+        "resolved": 950,
+        "resolved_error_pct": 0.0
+      }
+    },
+    "strata": [
+      {
+        "q": {
+          "1": {
+            "ambiguous": 263,
+            "errors": 4,
+            "infeasible": 16,
+            "n": 400,
+            "resolved": 121
+          },
+          "2": {
+            "ambiguous": 336,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 64
+          },
+          "3": {
+            "ambiguous": 343,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 57
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 266,
+            "errors": 0,
+            "infeasible": 10,
+            "n": 400,
+            "resolved": 124
+          },
+          "2": {
+            "ambiguous": 325,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 75
+          },
+          "3": {
+            "ambiguous": 342,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 58
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "sources": [
+          0,
+          7
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 272,
+            "errors": 1,
+            "infeasible": 11,
+            "n": 400,
+            "resolved": 117
+          },
+          "2": {
+            "ambiguous": 345,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 55
+          },
+          "3": {
+            "ambiguous": 352,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 48
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "sources": [
+          2,
+          5
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 280,
+            "errors": 0,
+            "infeasible": 8,
+            "n": 400,
+            "resolved": 112
+          },
+          "2": {
+            "ambiguous": 349,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 51
+          },
+          "3": {
+            "ambiguous": 358,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 42
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "sources": [
+          3,
+          4
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 243,
+            "errors": 4,
+            "infeasible": 16,
+            "n": 400,
+            "resolved": 141
+          },
+          "2": {
+            "ambiguous": 323,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 77
+          },
+          "3": {
+            "ambiguous": 333,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 67
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 254,
+            "errors": 0,
+            "infeasible": 10,
+            "n": 400,
+            "resolved": 136
+          },
+          "2": {
+            "ambiguous": 316,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 84
+          },
+          "3": {
+            "ambiguous": 329,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 71
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "sources": [
+          0,
+          7
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 271,
+            "errors": 2,
+            "infeasible": 11,
+            "n": 400,
+            "resolved": 118
+          },
+          "2": {
+            "ambiguous": 333,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 67
+          },
+          "3": {
+            "ambiguous": 349,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 51
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "sources": [
+          2,
+          5
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 263,
+            "errors": 1,
+            "infeasible": 7,
+            "n": 400,
+            "resolved": 130
+          },
+          "2": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          },
+          "3": {
+            "ambiguous": 342,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 58
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "sources": [
+          3,
+          4
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 111,
+            "errors": 8,
+            "infeasible": 182,
+            "n": 400,
+            "resolved": 107
+          },
+          "2": {
+            "ambiguous": 289,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 111
+          },
+          "3": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 109,
+            "errors": 10,
+            "infeasible": 191,
+            "n": 400,
+            "resolved": 100
+          },
+          "2": {
+            "ambiguous": 302,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 98
+          },
+          "3": {
+            "ambiguous": 340,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 60
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "sources": [
+          0,
+          7
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 117,
+            "errors": 8,
+            "infeasible": 160,
+            "n": 400,
+            "resolved": 123
+          },
+          "2": {
+            "ambiguous": 296,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 104
+          },
+          "3": {
+            "ambiguous": 337,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 63
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "sources": [
+          2,
+          5
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 121,
+            "errors": 11,
+            "infeasible": 175,
+            "n": 400,
+            "resolved": 104
+          },
+          "2": {
+            "ambiguous": 298,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 102
+          },
+          "3": {
+            "ambiguous": 337,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 63
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "sources": [
+          3,
+          4
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 120,
+            "errors": 9,
+            "infeasible": 169,
+            "n": 400,
+            "resolved": 111
+          },
+          "2": {
+            "ambiguous": 289,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 111
+          },
+          "3": {
+            "ambiguous": 331,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 69
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 109,
+            "errors": 12,
+            "infeasible": 174,
+            "n": 400,
+            "resolved": 117
+          },
+          "2": {
+            "ambiguous": 297,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 103
+          },
+          "3": {
+            "ambiguous": 339,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 61
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "sources": [
+          0,
+          7
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 99,
+            "errors": 10,
+            "infeasible": 174,
+            "n": 400,
+            "resolved": 127
+          },
+          "2": {
+            "ambiguous": 298,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 102
+          },
+          "3": {
+            "ambiguous": 341,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 59
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "sources": [
+          2,
+          5
+        ]
+      },
+      {
+        "q": {
+          "1": {
+            "ambiguous": 113,
+            "errors": 8,
+            "infeasible": 174,
+            "n": 400,
+            "resolved": 113
+          },
+          "2": {
+            "ambiguous": 296,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 104
+          },
+          "3": {
+            "ambiguous": 343,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 57
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "sources": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "events_per_stratum": 400,
+  "interpretation": "synthetic assumption stress test; q is prespecified/sensitivity-indexed, never selected after viewing the desired label",
+  "k": 5,
+  "seed": 20260914,
+  "shifts": [
+    0.5,
+    1.0
+  ],
+  "single_contamination": {
+    "aggregate": {
+      "0": {
+        "ambiguous": 2870,
+        "ambiguous_pct": 22.421875,
+        "errors": 261,
+        "infeasible": 5733,
+        "infeasible_pct": 44.7890625,
+        "n": 12800,
+        "resolved": 4197,
+        "resolved_error_pct": 6.218727662616154
+      },
+      "1": {
+        "ambiguous": 8688,
+        "ambiguous_pct": 67.875,
+        "errors": 0,
+        "infeasible": 0,
+        "infeasible_pct": 0.0,
+        "n": 12800,
+        "resolved": 4112,
+        "resolved_error_pct": 0.0
+      },
+      "2": {
+        "ambiguous": 10614,
+        "ambiguous_pct": 82.921875,
+        "errors": 0,
+        "infeasible": 0,
+        "infeasible_pct": 0.0,
+        "n": 12800,
+        "resolved": 2186,
+        "resolved_error_pct": 0.0
+      }
+    },
+    "strata": [
+      {
+        "q": {
+          "0": {
+            "ambiguous": 121,
+            "errors": 5,
+            "infeasible": 88,
+            "n": 400,
+            "resolved": 191
+          },
+          "1": {
+            "ambiguous": 278,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 122
+          },
+          "2": {
+            "ambiguous": 326,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 74
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 0
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 141,
+            "errors": 4,
+            "infeasible": 91,
+            "n": 400,
+            "resolved": 168
+          },
+          "1": {
+            "ambiguous": 292,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 108
+          },
+          "2": {
+            "ambiguous": 343,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 57
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 1
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 162,
+            "errors": 10,
+            "infeasible": 81,
+            "n": 400,
+            "resolved": 157
+          },
+          "1": {
+            "ambiguous": 292,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 108
+          },
+          "2": {
+            "ambiguous": 341,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 59
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 2
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 143,
+            "errors": 5,
+            "infeasible": 83,
+            "n": 400,
+            "resolved": 174
+          },
+          "1": {
+            "ambiguous": 283,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 117
+          },
+          "2": {
+            "ambiguous": 329,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 71
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 3
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 142,
+            "errors": 11,
+            "infeasible": 86,
+            "n": 400,
+            "resolved": 172
+          },
+          "1": {
+            "ambiguous": 301,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 99
+          },
+          "2": {
+            "ambiguous": 344,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 56
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 4
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 151,
+            "errors": 9,
+            "infeasible": 76,
+            "n": 400,
+            "resolved": 173
+          },
+          "1": {
+            "ambiguous": 296,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 104
+          },
+          "2": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 5
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 135,
+            "errors": 12,
+            "infeasible": 63,
+            "n": 400,
+            "resolved": 202
+          },
+          "1": {
+            "ambiguous": 286,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 114
+          },
+          "2": {
+            "ambiguous": 330,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 70
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 6
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 137,
+            "errors": 11,
+            "infeasible": 59,
+            "n": 400,
+            "resolved": 204
+          },
+          "1": {
+            "ambiguous": 295,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 105
+          },
+          "2": {
+            "ambiguous": 344,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 56
+          }
+        },
+        "shift": 0.5,
+        "sign": -1,
+        "source": 7
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 137,
+            "errors": 10,
+            "infeasible": 90,
+            "n": 400,
+            "resolved": 173
+          },
+          "1": {
+            "ambiguous": 292,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 108
+          },
+          "2": {
+            "ambiguous": 340,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 60
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 0
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 143,
+            "errors": 7,
+            "infeasible": 84,
+            "n": 400,
+            "resolved": 173
+          },
+          "1": {
+            "ambiguous": 299,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 101
+          },
+          "2": {
+            "ambiguous": 340,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 60
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 1
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 142,
+            "errors": 6,
+            "infeasible": 87,
+            "n": 400,
+            "resolved": 171
+          },
+          "1": {
+            "ambiguous": 303,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 97
+          },
+          "2": {
+            "ambiguous": 347,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 53
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 2
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 141,
+            "errors": 12,
+            "infeasible": 88,
+            "n": 400,
+            "resolved": 171
+          },
+          "1": {
+            "ambiguous": 285,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 115
+          },
+          "2": {
+            "ambiguous": 337,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 63
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 3
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 133,
+            "errors": 2,
+            "infeasible": 84,
+            "n": 400,
+            "resolved": 183
+          },
+          "1": {
+            "ambiguous": 295,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 105
+          },
+          "2": {
+            "ambiguous": 339,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 61
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 4
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 138,
+            "errors": 7,
+            "infeasible": 81,
+            "n": 400,
+            "resolved": 181
+          },
+          "1": {
+            "ambiguous": 302,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 98
+          },
+          "2": {
+            "ambiguous": 343,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 57
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 5
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 143,
+            "errors": 6,
+            "infeasible": 65,
+            "n": 400,
+            "resolved": 192
+          },
+          "1": {
+            "ambiguous": 301,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 99
+          },
+          "2": {
+            "ambiguous": 348,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 52
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 6
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 132,
+            "errors": 4,
+            "infeasible": 70,
+            "n": 400,
+            "resolved": 198
+          },
+          "1": {
+            "ambiguous": 281,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 119
+          },
+          "2": {
+            "ambiguous": 325,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 75
+          }
+        },
+        "shift": 0.5,
+        "sign": 1,
+        "source": 7
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 39,
+            "errors": 6,
+            "infeasible": 294,
+            "n": 400,
+            "resolved": 67
+          },
+          "1": {
+            "ambiguous": 247,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 153
+          },
+          "2": {
+            "ambiguous": 310,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 90
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 0
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 31,
+            "errors": 8,
+            "infeasible": 290,
+            "n": 400,
+            "resolved": 79
+          },
+          "1": {
+            "ambiguous": 258,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 142
+          },
+          "2": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 1
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 33,
+            "errors": 9,
+            "infeasible": 289,
+            "n": 400,
+            "resolved": 78
+          },
+          "1": {
+            "ambiguous": 245,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 155
+          },
+          "2": {
+            "ambiguous": 345,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 55
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 2
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 54,
+            "errors": 7,
+            "infeasible": 266,
+            "n": 400,
+            "resolved": 80
+          },
+          "1": {
+            "ambiguous": 255,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 145
+          },
+          "2": {
+            "ambiguous": 322,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 78
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 3
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 37,
+            "errors": 7,
+            "infeasible": 273,
+            "n": 400,
+            "resolved": 90
+          },
+          "1": {
+            "ambiguous": 252,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 148
+          },
+          "2": {
+            "ambiguous": 324,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 76
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 4
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 48,
+            "errors": 9,
+            "infeasible": 268,
+            "n": 400,
+            "resolved": 84
+          },
+          "1": {
+            "ambiguous": 251,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 149
+          },
+          "2": {
+            "ambiguous": 324,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 76
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 5
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 46,
+            "errors": 11,
+            "infeasible": 249,
+            "n": 400,
+            "resolved": 105
+          },
+          "1": {
+            "ambiguous": 251,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 149
+          },
+          "2": {
+            "ambiguous": 318,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 82
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 6
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 36,
+            "errors": 11,
+            "infeasible": 264,
+            "n": 400,
+            "resolved": 100
+          },
+          "1": {
+            "ambiguous": 247,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 153
+          },
+          "2": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          }
+        },
+        "shift": 1.0,
+        "sign": -1,
+        "source": 7
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 33,
+            "errors": 12,
+            "infeasible": 299,
+            "n": 400,
+            "resolved": 68
+          },
+          "1": {
+            "ambiguous": 246,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 154
+          },
+          "2": {
+            "ambiguous": 320,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 80
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 0
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 34,
+            "errors": 9,
+            "infeasible": 290,
+            "n": 400,
+            "resolved": 76
+          },
+          "1": {
+            "ambiguous": 262,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 138
+          },
+          "2": {
+            "ambiguous": 323,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 77
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 1
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 41,
+            "errors": 8,
+            "infeasible": 281,
+            "n": 400,
+            "resolved": 78
+          },
+          "1": {
+            "ambiguous": 259,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 141
+          },
+          "2": {
+            "ambiguous": 334,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 66
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 2
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 40,
+            "errors": 11,
+            "infeasible": 279,
+            "n": 400,
+            "resolved": 81
+          },
+          "1": {
+            "ambiguous": 245,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 155
+          },
+          "2": {
+            "ambiguous": 329,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 71
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 3
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 49,
+            "errors": 6,
+            "infeasible": 273,
+            "n": 400,
+            "resolved": 78
+          },
+          "1": {
+            "ambiguous": 254,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 146
+          },
+          "2": {
+            "ambiguous": 322,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 78
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 4
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 28,
+            "errors": 3,
+            "infeasible": 296,
+            "n": 400,
+            "resolved": 76
+          },
+          "1": {
+            "ambiguous": 245,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 155
+          },
+          "2": {
+            "ambiguous": 317,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 83
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 5
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 35,
+            "errors": 11,
+            "infeasible": 285,
+            "n": 400,
+            "resolved": 80
+          },
+          "1": {
+            "ambiguous": 243,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 157
+          },
+          "2": {
+            "ambiguous": 320,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 80
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 6
+      },
+      {
+        "q": {
+          "0": {
+            "ambiguous": 45,
+            "errors": 12,
+            "infeasible": 261,
+            "n": 400,
+            "resolved": 94
+          },
+          "1": {
+            "ambiguous": 247,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 153
+          },
+          "2": {
+            "ambiguous": 328,
+            "errors": 0,
+            "infeasible": 0,
+            "n": 400,
+            "resolved": 72
+          }
+        },
+        "shift": 1.0,
+        "sign": 1,
+        "source": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+bracket_width,n_events,sources_per_event,quorum_k,separable_ambiguous_pct,coupled_ambiguous_pct,ambiguity_reduction_pp,midpoint_quorum_error_pct,coupled_resolved_errors,coupled_resolved_pct,separable_resolved_pct,separable_resolved_label_reversals,shared_model_infeasible_events,true_quorum_positive_pct,max_model_tension
+0.02,20000,8,5,6.12,3.155,2.965,1.62,0,96.845,93.88,0,0,37.14,0.0
+0.05,20000,8,5,15.645,7.88,7.765,3.615,0,92.12,84.355,0,0,36.675,0.0
+0.1,20000,8,5,30.645,15.97,14.675,6.905,0,84.03,69.355,0,0,36.06,0.0
+0.2,20000,8,5,57.35,30.585,26.765,12.345,0,69.415,42.65,0,0,36.105,0.0
+0.35,20000,8,5,85.79,50.83,34.96,19.195,0,49.17,14.21,0,0,36.21,0.0

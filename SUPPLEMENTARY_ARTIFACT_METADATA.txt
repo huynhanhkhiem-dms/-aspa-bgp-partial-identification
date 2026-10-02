@@ -1,0 +1,13 @@
+SUPPLEMENTARY REPRODUCIBILITY ARTIFACT
+Article title: Fallback-Preserving Partial Identification for Asynchronous Routing-Security Measurements: Sharp Robust Quorum Bounds for ASPA-BGP Measurement
+Target journal: Telecommunication Systems (Springer Nature)
+Author: Huynh Anh Khiem
+Affiliation: Faculty of Information Technology, Ton Duc Thang University, Ho Chi Minh City, Vietnam
+Corresponding author: huynhanhkhiem@tdtu.edu.vn
+ORCID: 0009-0007-7210-174X
+
+CONTENTS
+Processed empirical inputs, exact input hashes, source code, 79 automated tests, deterministic stress generators, independent exhaustive-oracle validators, fail-closed reported-result validation, and full regeneration instructions.
+
+SCIENTIFIC BOUNDARY
+The eight-day ASPA-BGP audit supports only A1-S-conditional source-local resolution-sensitivity claims; daily snapshots do not exclude hidden intra-bracket reversals. The robust multi-source contribution is validated by proof, latent-truth stress tests, and independent exhaustive oracles; it is not presented as field-validated multi-RP prevalence evidence.

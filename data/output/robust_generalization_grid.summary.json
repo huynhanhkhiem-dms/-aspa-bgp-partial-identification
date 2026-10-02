@@ -1,0 +1,65 @@
+{
+  "all_robust_resolved_decisions_correct": true,
+  "all_separable_resolved_decisions_correct": true,
+  "bracket_widths": [
+    0.1,
+    0.35,
+    0.6
+  ],
+  "by_m": [
+    {
+      "generated_events": 27000,
+      "m_sources": 4,
+      "max_ambiguity_reduction_pp": 24.5,
+      "mean_ambiguity_reduction_pp": 6.081481481481482,
+      "quorum_decisions": 54000,
+      "robust_resolved_errors": 0,
+      "separable_resolved_errors": 0
+    },
+    {
+      "generated_events": 27000,
+      "m_sources": 8,
+      "max_ambiguity_reduction_pp": 40.5,
+      "mean_ambiguity_reduction_pp": 13.162962962962963,
+      "quorum_decisions": 81000,
+      "robust_resolved_errors": 0,
+      "separable_resolved_errors": 0
+    },
+    {
+      "generated_events": 27000,
+      "m_sources": 16,
+      "max_ambiguity_reduction_pp": 58.199999999999996,
+      "mean_ambiguity_reduction_pp": 21.84320987654321,
+      "quorum_decisions": 81000,
+      "robust_resolved_errors": 0,
+      "separable_resolved_errors": 0
+    }
+  ],
+  "events_per_geometry_cell": 1000,
+  "generated_events": 81000,
+  "geometry_cells": 81,
+  "interpretation": "latent-truth implementation and structural-generalization stress test; not calibrated to Internet frequencies",
+  "m_values": [
+    4,
+    8,
+    16
+  ],
+  "max_ambiguity_reduction_pp": 58.199999999999996,
+  "mean_ambiguity_reduction_pp": 14.647685185185185,
+  "positive_reduction_settings": 198,
+  "q_values": [
+    0,
+    1,
+    2
+  ],
+  "quorum_decisions": 216000,
+  "reported_settings": 216,
+  "robust_never_more_ambiguous_than_separable": true,
+  "seed": 20260915,
+  "thresholds": [
+    0.0,
+    0.1,
+    0.25
+  ],
+  "unchanged_settings": 18
+}

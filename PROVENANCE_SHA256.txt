@@ -1,0 +1,2 @@
+4a4fdf1a71ebbc651ebf88f77fcfa2791e3eaa1b113cbf8d0cce1a1b816652e5  data/input/aspa_snapshots_2026-08-26_09-02.json
+a6583371e906c52ba7fe7c38596800dc7aa1375dac03be5b6dffdcfda8de4a85  data/input/pilot_signing_time_probe_1h.csv

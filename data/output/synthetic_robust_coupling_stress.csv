@@ -1,0 +1,6 @@
+shift_in_bracket_widths,n_events,sources_per_event,quorum_k,robust_q,separable_ambiguous_pct,robust_ambiguous_pct,robust_ambiguity_reduction_pp,robust_resolved_errors,strict_infeasible_pct,strict_feasible_pct,strict_ambiguous_pct_all_events,strict_resolved_pct_all_events,strict_resolved_errors,strict_wrong_resolved_pct_all_events,strict_wrong_resolved_pct_of_resolved,midpoint_quorum_error_pct,mean_feasible_theta_candidates_q1,max_feasible_theta_candidates_q1,true_quorum_positive_pct,qmin_0_count,qmin_1_count,qmin_2_count,qmin_3_count,qmin_4_count,qmin_5_count,qmin_6_count,qmin_7_count,qmin_8_count
+0.0,10000,8,5,1,86.38,78.95,7.43,0,0.0,100.0,50.09,49.91,0,0.0,0.0,18.74,17.2058,37,35.97,10000,0,0,0,0,0,0,0,0
+0.25,10000,8,5,1,86.35,77.57,8.78,0,2.81,97.19,46.08,51.11,55,0.55,1.076110350225005,19.28,16.9563,37,36.17,9719,281,0,0,0,0,0,0,0
+0.5,10000,8,5,1,86.19,73.3,12.89,0,19.49,80.51,35.54,44.97,191,1.91,4.24727596175228,19.65,15.8284,37,36.24,8051,1949,0,0,0,0,0,0,0
+1.0,10000,8,5,1,86.36,64.62,21.74,0,69.48,30.52,10.08,20.44,187,1.87,9.148727984344422,19.06,11.889,39,37.31,3052,6948,0,0,0,0,0,0,0
+2.0,10000,8,5,1,85.94,57.55,28.39,0,100.0,0.0,0.0,0.0,0,0.0,0.0,19.04,8.8446,27,37.09,0,10000,0,0,0,0,0,0,0
