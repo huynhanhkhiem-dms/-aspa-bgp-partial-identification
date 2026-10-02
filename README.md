@@ -1,5 +1,7 @@
 # Fallback-Preserving Partial Identification for ASPA-BGP Measurement
 
+[![Reproducibility validation](https://github.com/huynhanhkhiem-dms/-aspa-bgp-partial-identification/actions/workflows/reproducibility.yml/badge.svg)](https://github.com/huynhanhkhiem-dms/-aspa-bgp-partial-identification/actions/workflows/reproducibility.yml)
+
 Reproducibility repository for the manuscript:
 
 **Fallback-Preserving Partial Identification for Asynchronous Routing-Security Measurements: Sharp Robust Quorum Bounds for ASPA-BGP Measurement**
